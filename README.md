@@ -30,6 +30,6 @@ She contends we are making two mistakes. The primary E.S.G. strategy is to inves
 The objective of this project is to pull together a (1) NLP Dataset- new sources (2) Pubically aviable data on public companies to evalute "Brown" and "Green" firms.
 
 ## Related Projects
-https://www.mdpi.com/2071-1050/12/13/5317
-https://www.mdpi.com/2071-1050/14/14/8745
-https://www.pm-research.com/content/pmrjesg/1/3/39
+1. https://www.mdpi.com/2071-1050/12/13/5317
+2. https://www.mdpi.com/2071-1050/14/14/8745
+3. https://www.pm-research.com/content/pmrjesg/1/3/39
