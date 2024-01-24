@@ -10,6 +10,14 @@ Concerns revolve around ongoing challenges regarding the lack of standardization
 
 Kelly Shue, Professor of Finance at the Yale School of Management, presents an additional critique of the ESG movement. She classifies firms into two categories: brown firms, which represent the top 20 percent with the highest greenhouse gas emissions per unit of sales, and green firms, which belong to the bottom 20 percent with the lowest greenhouse gas emissions per unit of sales.
 
+Examples of Brown Frims:
+
+Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx
+
+Example of Green Firms:
+
+Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express. Silicon Valley Bank
+
 She contends we are making two mistakes. The primary E.S.G. strategy is to invest in firms that are already green, and can’t get much greener; E.S.G. money isn’t going to companies that are developing new green technology; it’s going to firms that already don’t pollute much: like banks, insurance companies, software firms, ect. Disinvesting from brown firms, which raises their cost of capital and encourages them to make short-term decisions, which often leads to more pollution rather than less.
 
 (Source: "Counterproductive Sustainable Investing: The Impact Elasticity of Brown and Green Firms, with Samuel Hartzmark") 
