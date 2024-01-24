@@ -16,7 +16,7 @@ Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx
 
 ## Example of Green Firms:
 
-Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express. Silicon Valley Bank
+Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express. Silicon Valley Bank 
 
 ## (Source: "Counterproductive Sustainable Investing: The Impact Elasticity of Brown and Green Firms, with Samuel Hartzmark") 
 https://sites.google.com/site/kellyshue/
