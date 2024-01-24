@@ -27,7 +27,7 @@ She contends we are making two mistakes. The primary E.S.G. strategy is to inves
 "if we were to punish brown firms to an extreme extent, make it infinitely expensive for them to raise capital, they’re going to go out of business, and if they go out of business, they can’t pollute. The problem is that brown firms exist in a lot of sectors that are actually crucial to a well-functioning society. So it’s not just coal mining, which we might all think of as evil and could be easily replaced. It also includes agriculture, transportation, building materials, natural-resource extraction. So these are sectors that are quite valuable, and I think it would make more sense to try to make these sectors more green per unit of output rather than to say we can eliminate them entirely"(Kelly Shue) 
 
 ## Project Objective
-The objective of this project is to pull together a (1) NLP Dataset- new sources (2) Pubically aviable data on public companies to evalute "Brown" and "Green" firms.
+The objective of this project is to pull together a (1) NLP Dataset- new sources (2) Pubically aviable data on public companies to classify "Brown" and "Green" firms.
 
 ## Related Projects
 1. https://www.mdpi.com/2071-1050/12/13/5317
