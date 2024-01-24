@@ -10,11 +10,11 @@ Concerns revolve around ongoing challenges regarding the lack of standardization
 
 Kelly Shue, Professor of Finance at the Yale School of Management, presents an additional critique of the ESG movement. She classifies firms into two categories: brown firms, which represent the top 20 percent with the highest greenhouse gas emissions per unit of sales, and green firms, which belong to the bottom 20 percent with the lowest greenhouse gas emissions per unit of sales.
 
-Examples of Brown Frims:
+## Examples of Brown Frims:
 
 Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx
 
-Example of Green Firms:
+## Example of Green Firms:
 
 Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express. Silicon Valley Bank
 
