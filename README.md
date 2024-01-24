@@ -14,4 +14,6 @@ Rather than merely divesting from so-called brown firms, Shue argues that this a
 
 Shue contends that while ESG investors may have good intentions, their actions often fail the logic test. She emphasizes the need for investors to foster change within brown firms to make a meaningful impact. (Source: "Counterproductive Sustainable Investing: The Impact Elasticity of Brown and Green Firms, with Samuel Hartzmark") 
 
+https://sites.google.com/site/kellyshue/
+
 The objective of this project is to pull together a (1) NLP Dataset- new sources (2) Pubically aviable data on public companions to evalute "Brown" and "Green" firms, 
