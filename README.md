@@ -10,8 +10,6 @@ Concerns revolve around ongoing challenges regarding the lack of standardization
 
 Furthermore, Kelly Shue, Professor of Finance at the Yale School of Management, presents an additional critique of the ESG movement. She classifies firms into two categories: brown firms, which represent the top 20 percent with the highest greenhouse gas emissions per unit of sales, and green firms, which belong to the bottom 20 percent with the lowest greenhouse gas emissions per unit of sales.
 
-Rather than merely divesting from so-called brown firms, Shue argues that this approach inadvertently encourages these companies to continue polluting. Instead, she advocates for investors to actively engage with brown firms, working to transform them into greener entities.
-
 Shue contends that while ESG investors may have good intentions, their actions often fail the logic test. She emphasizes the need for investors to foster change within brown firms to make a meaningful impact. (Source: "Counterproductive Sustainable Investing: The Impact Elasticity of Brown and Green Firms, with Samuel Hartzmark") 
 
 https://sites.google.com/site/kellyshue/
