@@ -19,7 +19,15 @@ Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express. Silicon
 
 ## Project Objective
 
-The objective of this project is to evaluate setiment around ESG topics using annual shareholder meeting notes to benchmark progression from 2013-2023. 
+The objective of this project is to evaluate setiment around ESG topics using annual shareholder meeting notes to benchmark progress (2013-2023). 
+
+
+## Project Road Map
+
+1.) Select and label a subsample of "Brown" and  "Green" firms
+2.) Convert the preprocessed text into features suitable for machine learning e.g. Techniques like TF-IDF (Term Frequency-Inverse Document Frequency)
+3.) Choose appropriate NLP model
+4.) Model Evaluation 
 
 NLP model to (1) classify (Green/Brown) (2) look for evidence that a firm is meeting enviromental commitments. 
 
