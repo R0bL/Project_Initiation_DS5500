@@ -23,8 +23,12 @@ The objective of this project is to evaluate setiment around ESG topics using an
 
 NLP model to (1) classify (Green/Brown) (2) look for evidence that a firm is meeting enviromental commitments. 
 
-## (Source: "Counterproductive Sustainable Investing: The Impact Elasticity of Brown and Green Firms, with Samuel Hartzmark") 
-https://sites.google.com/site/kellyshue/
+
+
+## Source: 
+1.  Hartzmark, Samuel M., and Kelly Shue. "Counterproductive Sustainable Investing: The Impact Elasticity of Brown and Green Firms." [Dec. 2023]. [URL](https://drive.google.com/file/d/1BUClf14ORebuBbhXskhN5PCAdIgbhyHY/view)
+
+2.  
 
 
 ## Related Projects
