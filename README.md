@@ -21,7 +21,7 @@ Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express. Silicon
 
 The objective of this project is to evaluate setiment around ESG topics using annual shareholder meeting notes to benchmark progression from 2013-2023. 
 
-NLP model to (1) classify (Green/Brown) firm 
+NLP model to (1) classify (Green/Brown) 
 
 ## (Source: "Counterproductive Sustainable Investing: The Impact Elasticity of Brown and Green Firms, with Samuel Hartzmark") 
 https://sites.google.com/site/kellyshue/
