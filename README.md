@@ -19,7 +19,7 @@ The objective of this project is to evaluate setiment around ESG topics using co
 
 ## Examples of Brown Frims:
 
-Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx
+Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx, NewMarket
 
 ## Example of Green Firms:
 
