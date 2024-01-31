@@ -23,7 +23,7 @@ Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx, NewMarket, Marathon
 
 ## Example of Green Firms:
 
-Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express. Silicon Valley Bank 
+Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express
 
 
 
