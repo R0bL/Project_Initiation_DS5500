@@ -51,6 +51,8 @@ Develop a Labeling Guide: Define positive, negative, and neutral ESG sentiments.
 
 Manual Labeling: Label a subset of filings for training the sentiment analysis model.
 
+Refrence: https://aws.amazon.com/blogs/machine-learning/use-sec-text-for-ratings-classification-using-multimodal-ml-in-amazon-sagemaker-jumpstart/
+
 #### 4. Feature Extraction
 
 NLP Techniques: Apply TF-IDF, sentiment scores, and word embeddings for data conversion.
