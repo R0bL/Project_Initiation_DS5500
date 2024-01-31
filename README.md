@@ -8,6 +8,15 @@ https://freakonomics.com/podcast/are-e-s-g-investors-actually-helping-the-enviro
 
 Concerns revolve around ongoing challenges regarding the lack of standardization in disclosure standards, the metrics used to measure progress, and the units of measure for specific ESG issues. 
 
+
+## Project Objective
+
+
+Form 8-K is known as a “current report” and it is the report that companies must file with the SEC to announce major events that shareholders should know about
+
+The objective of this project is to evaluate setiment around ESG topics using company 8-K SEC disclosures (2013-2023). 
+
+
 ## Examples of Brown Frims:
 
 Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx
@@ -17,19 +26,36 @@ Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx
 Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express. Silicon Valley Bank 
 
 
-## Project Objective
-
-The objective of this project is to evaluate setiment around ESG topics using annual shareholder meeting notes to benchmark progress (2013-2023). 
-
 
 ## Project Road Map
 
-1. Select and label a subsample of "Brown" and  "Green" firms
-2. Convert the preprocessed text into features suitable for machine learning e.g. Techniques like TF-IDF (Term Frequency-Inverse Document Frequency)
-3. Choose appropriate NLP model
-4. Model Evaluation 
+ESG Sentiment Analysis Project Using 8-K Filings
+1. Compile List of 8-K Financial Disclosures
+Data Source: Utilize the SEC's EDGAR system for 8-K filings access.
+Research Paper Reference: Consult "Measuring Disclosure Using 8-K Filings" for methodology insights.
+Time Frame: Focus on 2013 to 2023 disclosures.
+Filtering Criteria: Select filings likely containing ESG information.
+2. Data Extraction and Preprocessing
+Extract Relevant Sections: Identify and extract ESG-relevant sections from 8-K filings.
+Text Cleaning: Standardize formatting and remove non-essential elements.
+3. Labeling Data for Sentiment Analysis
+Develop a Labeling Guide: Define positive, negative, and neutral ESG sentiments.
+Manual Labeling: Label a subset of filings for training the sentiment analysis model.
+4. Feature Extraction
+NLP Techniques: Apply TF-IDF, sentiment scores, and word embeddings for data conversion.
+5. Model Selection and Training
+Sentiment Analysis Models: Choose from logistic regression, SVM, LSTM, or BERT models.
+Model Training: Train the model using the manually labeled dataset.
+6. Model Evaluation and Optimization
+Cross-Validation: Implement k-fold cross-validation for model performance.
+Metrics: Use accuracy, precision, recall, F1 score, and confusion matrices.
+7. Analysis of ESG Sentiment Trends
+Time-Series Analysis: Examine sentiment trends over time.
+Comparative Analysis: Compare sentiments across industries or companies.
+8. Visualization and Reporting
+Data Visualization: Create visual representations of trends and insights.
+Reporting: Document findings, methodology, and project implications comprehensively.
 
-NLP model to (1) classify (Green/Brown) (2) look for evidence that a firm is meeting enviromental commitments. 
 
 
 
@@ -37,6 +63,10 @@ NLP model to (1) classify (Green/Brown) (2) look for evidence that a firm is mee
 1.  Hartzmark, Samuel M., and Kelly Shue. "Counterproductive Sustainable Investing: The Impact Elasticity of Brown and Green Firms." 1 Nov. 2022, SSRN, https://ssrn.com/abstract=4359282 or http://dx.doi.org/10.2139/ssrn.4359282.
 
 2.  Dubner, Stephen J. “Are E.S.G. Investors Actually Helping the Environment?” Freakonomics Radio, no. 546, Freakonomics, LLC, 14 June 2023, https://freakonomics.com/podcast/are-e-s-g-investors-actually-helping-the-environment/.
+
+3.  
+
+NLP use for Stock Prediction. 
 
 
 ## Related Projects
