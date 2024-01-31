@@ -61,6 +61,8 @@ Manual Labeling: Label a subset of filings for training the sentiment analysis m
 
 Refrence: https://aws.amazon.com/blogs/machine-learning/use-sec-text-for-ratings-classification-using-multimodal-ml-in-amazon-sagemaker-jumpstart/
 
+Capturing Firm Economic Events: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4510212#:~:text=To%20better%20capture%20events%20that,participants'%20uncertainty%20about%20that%20performance.
+
 #### 4. Feature Extraction
 
 NLP Techniques: Apply TF-IDF, sentiment scores, and word embeddings for data conversion.
