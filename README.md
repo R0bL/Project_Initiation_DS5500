@@ -37,7 +37,7 @@ Time Frame: 2013 - 2023
 
 Data Source: Utilize the SEC's EDGAR system for 8-K filings access
 
-Consult:
+Refrence:
 1. "Measuring Disclosure Using 8-K Filings"
 
 2. "ESG In Corporate Filings: An AI Perspective"
@@ -50,6 +50,8 @@ https://arxiv.org/pdf/2212.00018.pdf
 Extract Relevant Sections: Identify and extract ESG-relevant sections from 8-K filings
 
 Text Cleaning: Standardize formatting and remove non-essential elements.
+
+Refrence: https://scholar.harvard.edu/jbenchimol/files/text-mining-methodologies.pdf
 
 #### 3. Labeling Data for Sentiment Analysis
 
