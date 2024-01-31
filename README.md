@@ -37,7 +37,13 @@ Time Frame: 2013 - 2023
 
 Data Source: Utilize the SEC's EDGAR system for 8-K filings access
 
-Consult "Measuring Disclosure Using 8-K Filings" for methodology insights
+Consult:
+1. "Measuring Disclosure Using 8-K Filings"
+
+2. "ESG In Corporate Filings: An AI Perspective"
+
+https://arxiv.org/pdf/2212.00018.pdf
+
 
 #### 2. Data Extraction and Preprocessing
 
