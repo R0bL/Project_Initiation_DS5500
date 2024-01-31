@@ -31,7 +31,7 @@ Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express. Silicon
 
 ESG Sentiment Analysis Project Using 8-K Filings
 
-1. Compile List of 8-K Financial Disclosures
+#### 1. Compile List of 8-K Financial Disclosures
 
 Time Frame: 2013 - 2023 
 
@@ -39,44 +39,44 @@ Data Source: Utilize the SEC's EDGAR system for 8-K filings access
 
 Reference: Consult "Measuring Disclosure Using 8-K Filings" for methodology insights
 
-2. Data Extraction and Preprocessing
+#### 2. Data Extraction and Preprocessing
 
 Extract Relevant Sections: Identify and extract ESG-relevant sections from 8-K filings
 
 Text Cleaning: Standardize formatting and remove non-essential elements.
 
-3. Labeling Data for Sentiment Analysis
+#### 3. Labeling Data for Sentiment Analysis
 
 Develop a Labeling Guide: Define positive, negative, and neutral ESG sentiments.
 
 Manual Labeling: Label a subset of filings for training the sentiment analysis model.
 
-4. Feature Extraction
+#### 4. Feature Extraction
 
 NLP Techniques: Apply TF-IDF, sentiment scores, and word embeddings for data conversion.
 
-5. Model Selection and Training
+#### 5. Model Selection and Training
 
 Sentiment Analysis Models: Choose from logistic regression, SVM, LSTM, or BERT models.
 
 
 Model Training: Train the model using the manually labeled dataset.
 
-6. Model Evaluation and Optimization
+#### 6. Model Evaluation and Optimization
 
 Cross-Validation: Implement k-fold cross-validation for model performance.
 
 
 Metrics: Use accuracy, precision, recall, F1 score, and confusion matrices.
 
-7. Analysis of ESG Sentiment Trends
+#### 7. Analysis of ESG Sentiment Trends
 
 Time-Series Analysis: Examine sentiment trends over time.
 
 
 Comparative Analysis: Compare sentiments across industries or companies.
 
-8. Visualization and Reporting
+#### 8. Visualization and Reporting
 
 Reporting: Document findings, methodology, and project implications 
 
