@@ -44,6 +44,9 @@ Refrence:
 
 https://arxiv.org/pdf/2212.00018.pdf
 
+3. Capturing Firm Economic Events
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4510212#:~:text=To%20better%20capture%20events%20that,participants'%20uncertainty%20about%20that%20performance.
 
 #### 2. Data Extraction and Preprocessing
 
@@ -60,8 +63,6 @@ Develop a Labeling Guide: Define positive, negative, and neutral ESG sentiments.
 Manual Labeling: Label a subset of filings for training the sentiment analysis model.
 
 Refrence: https://aws.amazon.com/blogs/machine-learning/use-sec-text-for-ratings-classification-using-multimodal-ml-in-amazon-sagemaker-jumpstart/
-
-Capturing Firm Economic Events: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4510212#:~:text=To%20better%20capture%20events%20that,participants'%20uncertainty%20about%20that%20performance.
 
 #### 4. Feature Extraction
 
