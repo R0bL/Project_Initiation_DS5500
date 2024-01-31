@@ -33,13 +33,15 @@ ESG Sentiment Analysis Project Using 8-K Filings
 
 1. Compile List of 8-K Financial Disclosures
 
-Data Source: Utilize the SEC's EDGAR system for 8-K filings access.
-Time Frame: 2013 to 2023 
-Reference: Consult "Measuring Disclosure Using 8-K Filings" for methodology insights.
+Time Frame: 2013 - 2023 
+Data Source: Utilize the SEC's EDGAR system for 8-K filings access
+
+Reference: Consult "Measuring Disclosure Using 8-K Filings" for methodology insights
 
 2. Data Extraction and Preprocessing
 
-Extract Relevant Sections: Identify and extract ESG-relevant sections from 8-K filings.
+Extract Relevant Sections: Identify and extract ESG-relevant sections from 8-K filings
+
 Text Cleaning: Standardize formatting and remove non-essential elements.
 
 3. Labeling Data for Sentiment Analysis
