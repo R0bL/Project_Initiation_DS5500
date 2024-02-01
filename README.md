@@ -40,6 +40,8 @@ Data Source: Utilize the SEC's EDGAR system for 8-K filings access
 Refrence:
 1. "Measuring Disclosure Using 8-K Filings"
 
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3354252
+
 2. "ESG In Corporate Filings: An AI Perspective"
 
 https://arxiv.org/pdf/2212.00018.pdf
