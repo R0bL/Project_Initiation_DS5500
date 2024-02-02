@@ -50,7 +50,12 @@ Data Source: Utilize the SEC's EDGAR system for 8-K filings access
 Refrence:
 1. "Measuring Disclosure Using 8-K Filings"
 
+
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3354252
+
+
+* VDisc_Ct is the number of voluntary 8K items and associated exhibits
+* VDisc_WC is the number ofwords within the voluntary 8K items and associated exhibits
 
 2. "ESG In Corporate Filings: An AI Perspective"
 
