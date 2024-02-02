@@ -54,9 +54,11 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3354252
 
 2. "ESG In Corporate Filings: An AI Perspective"
 
+Tie the corporate actions on the environment to the investor expectations.
+
 https://arxiv.org/pdf/2212.00018.pdf
  
- Tie the corporate actions on the environment to the investor expectations.
+ 
 Among the key findings are: 
  * lack of transparency among the ESG raters on how the scores are assigned;
  * lack of standards on how a particular concept is measured 
