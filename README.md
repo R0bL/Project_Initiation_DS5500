@@ -55,6 +55,15 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3354252
 2. "ESG In Corporate Filings: An AI Perspective"
 
 https://arxiv.org/pdf/2212.00018.pdf
+ 
+ Tie the corporate actions on the environment to the investor expectations.
+Among the key findings are: 
+1. lack of transparency among the ESG raters on how the scores are assigned;
+2. lack of standards on how a particular concept is measured 
+3. Questionable tradeoffs: high scores in one domain may offset very low scores in another area
+4. Absence of an overall score combining performance scores along
+environmental, social and governance axes
+5. lack of acknowledgement of stakeholder expectations leading to lower acceptance rates.
 
 3. Capturing Firm Economic Events
 
