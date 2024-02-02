@@ -64,6 +64,7 @@ Among the key findings are:
 4. Absence of an overall score combining performance scores along
 environmental, social and governance axes
 5. lack of acknowledgement of stakeholder expectations leading to lower acceptance rates.
+   
 
 3. Capturing Firm Economic Events
 
