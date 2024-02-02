@@ -79,9 +79,8 @@ Among the key findings are:
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4510212#:~:text=To%20better%20capture%20events%20that,participants'%20uncertainty%20about%20that%20performance.
 
 
-* event-driven 8-K items (all 8-K items except Items 2.02, 7.01, 8.01, and 9.01)
-* Items 2.02, 7.01, and 8.01 constitute 8-K items with a voluntary disclosure component (what we call “disclosure-driven”)
-
+* event-driven 8-K, Items (all 8-K items except Items 2.02, 7.01, 8.01, and 9.01)
+* disclosure-driven, Items 2.02, 7.01, and 8.01 constitute 8-K items with a voluntary disclosure component 
 #### 2. Data Extraction and Preprocessing
 
 Extract Relevant Sections: Identify and extract ESG-relevant sections from 8-K filings
