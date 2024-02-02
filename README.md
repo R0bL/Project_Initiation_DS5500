@@ -63,7 +63,9 @@ Tie the corporate actions on the environment to the investor expectations.
 
 https://arxiv.org/pdf/2212.00018.pdf
  
- 
+Used:
+ * keywords corresponding to the SASB categories of ESG terms
+   
 Among the key findings are: 
  * lack of transparency among the ESG raters on how the scores are assigned;
  * lack of standards on how a particular concept is measured 
@@ -71,7 +73,7 @@ Among the key findings are:
  * Absence of an overall score combining performance scores alongenvironmental, social and governance axes
  * lack of acknowledgement of stakeholder expectations leading to lower acceptance rates.
    
-keywords corresponding to the SASB categories of ESG terms
+
 3. Capturing Firm Economic Events
 
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4510212#:~:text=To%20better%20capture%20events%20that,participants'%20uncertainty%20about%20that%20performance.
