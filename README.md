@@ -12,7 +12,7 @@ Concerns revolve around ongoing challenges regarding the lack of standardization
 ## Project Objective
 
 
-Form 8-K, indeed known as a "current report," is a crucial document required by the U.S. Securities and Exchange Commission (SEC). Companies publicly traded in the United States are mandated to file this form to announce significant events that shareholders should be aware of. The purpose of Form 8-K is to provide the public with an up-to-date overview of material changes in a company's operations or management that might affect its financial health or stock value.
+Form 8-K, indeed known as a "current report," is a  document required by the U.S. Securities and Exchange Commission (SEC). Companies publicly traded in the United States are mandated to file this form to announce significant events that shareholders should be aware of. The purpose of Form 8-K is to provide the public with an up-to-date overview of material changes in a company's operations or management that might affect its financial health or stock value.
 
 The objective of this project is to evaluate setiment around ESG topics using company 8-K SEC disclosures (2013-2023). 
 
