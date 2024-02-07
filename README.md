@@ -29,7 +29,7 @@ ESG metrics encompass three fundamental pillars:
 
 ## The Landscape
 
-ESG ratings play a crucial role in guiding trillions of dollars in investments worldwide. For example, the investment strategy of the Maine Public Employees Retirement System Pension Fund is guided by ESG criteria, highlighting the significance of integrating sustainability factors for long-term investment success.
+ESG ratings play a crucial role in guiding trillions of dollars in investments worldwide. For example, the investment strategy of the Maine Public Employees Retirement System Pension Fund is guided by ESG criteria, and they highlight the significance of integrating sustainability factors for long-term investment success.
 
 Maine is among six states with established ESG investment guidelines and policies
 .
