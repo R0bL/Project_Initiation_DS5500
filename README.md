@@ -35,6 +35,10 @@ However, the ESG movement finds itself embroiled in political discourse. While p
 
 
 
+## Case Study
+
+"ExxonMobil as a potential candidate to engage with, to try to drive value creation by making the business more sustainable? When you start looking at any potential activist target, you look for an outlier. And ExxonMobil was an outlier in that they had phenomenal assets, they had phenomenal engineering talent. Yet, they had underperformed, for nearly a decade, their peer group. This was a company who invented the lithium-ion battery, the company who was the first to actually scale solar production."
+
 
 
 
