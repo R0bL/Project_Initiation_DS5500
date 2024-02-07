@@ -33,7 +33,7 @@ ESG ratings play a crucial role in guiding trillions of dollars in investments w
 
 Maine is among six states with established ESG investment guidelines and policies
 .
-However, the ESG movement finds itself embroiled in political discourse. While political progressives view it as a means to address environmental challenges and safeguard the planet, Republican lawmakers often dismiss it as "woke investing" and seek to restrict its adoption through legislative measures.
+However, the ESG movement finds itself embroiled in political discourse. While political progressives view it as a means to address environmental challenges and safeguard the planet, Republican lawmakers critize it as "woke investing" and seek to restrict its adoption through legislative measures.
 
 
 
