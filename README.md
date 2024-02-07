@@ -5,6 +5,15 @@
 
 The adoption of Environmental, Social, and Governance (ESG) metrics in investing represents a significant shift from the tradtional metric to evaluate a companies performance. ESG funds represent about $35 trillion globally invested and is projected to influence a third of global asset managed by 2025. This research aims to dissect the ESG landscape by analyzing corporate 8-K filings from 2013 to 2023, distinguishing between between 'Brown' firms—those in the top 20 percent in terms of greenhouse gas emissions per unit of sales—and 'Green' firms, positioned in the bottom 20 percent 
 
+## Examples of Brown Frims:
+
+Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx, NewMarket, Marathon Petroleum
+
+## Example of Green Firms:
+
+Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express
+
+
 This study assesses the evolution of ESG messaging within 8-K filings. Form 8-K, known as a ”current report,” is a document required by the U.S. Securities and Exchange Commission (SEC) for publicly traded companies in the United States to announce significant events that shareholders should be aware of.It investigates the voluntary disclosure practices within these filings to understand their role in addressing or potentially facilitating greenwashing. The objective is to identify trends and strategies in ESG communication among companies with differing environmental impacts.
 
 ## Background
