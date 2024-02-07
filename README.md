@@ -26,11 +26,6 @@ Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx, NewMarket, Marathon
 Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express
 
 ## Probelm Statement
-
-Identify the Problem:
-
-Ongoing challenges regarding the lack of standardization in disclosure standards, the metrics used to measure progress, and the units of measure for specific ESG issues
-
  
 Put the Problem into Context:
 
