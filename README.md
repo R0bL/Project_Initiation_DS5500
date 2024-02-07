@@ -11,10 +11,42 @@ Concerns revolve around ongoing challenges regarding the lack of standardization
 
 ## Project Objective
 
+ Title: Green vs. Brown: Tracking the ESG Evolution through Corporate 8-K Filings 
+    
+    Summary: 
+    
+   The adoption of Environmental, Social, and Governance (ESG) metrics in investing marks a shift in how global asset are allocated (Mention School Divest to Invest), with ESG-driven assets are estimated to reach 35 trillion, it projected to account for one-third of global asset management by 2025. 
 
-Form 8-K, indeed known as a "current report," is a  document required by the U.S. Securities and Exchange Commission (SEC). Companies publicly traded in the United States are mandated to file this form to announce significant events that shareholders should be aware of. The purpose of Form 8-K is to provide the public with an up-to-date overview of material changes in a company's operations or management that might affect its financial health or stock value.
+   Political progressives think it will help save the planet. Republican lawmakers ridicule it as “woke investing,” and they’re trying to ban it.
 
-The objective of this project is to evaluate setiment around ESG topics using company 8-K SEC disclosures (2013-2023). 
+   This transition underscores the growing importance of sustainable investment practices. However, it also highlights significant challenges, notably:
+   
+   1. Lack of transparency among the ESG raters on how the scores are assigned
+   2. Lack of standards on how a particular concept is measured
+   3. Questionable tradeoffs: high scores in one domain may offset very low scores in another area
+   4. Absence of an overall score combining performance scores along (Environmental, social and governance axes) weights given to the "E" "S" and "G"
+   5. Lack of acknowledgement of stakeholder expectations
+
+   Escrig-Olmedo et al. (2019) 
+   
+    This study adopts a approach to dissect the ESG landscape  leveraging an existing categorization framework to differentiate between 'Brown' firms—those in the top 20 percent in terms of greenhouse gas emissions per unit of sales—and 'Green' firms, positioned in the bottom 20 percent by the same metric. 
+    
+    Through this lens, the research aims to explore the progression of the ESG movement by analyzing corporate 8-K filings from 2013 to 2023. 
+    
+    Form 8-K, known as a "current report," is a document required by the U.S. Securities and Exchange Commission (SEC). Publicly traded companies in the United States are mandated to file this form to announce significant events that shareholders should be aware of. 
+    
+    The purpose of Form 8-K is to provide the public with an up-to-date overview of material changes in a company's operations or management that might affect its financial health or stock value.
+    
+    (why did you chose 8-k's)    
+    
+    These filings, mandated by the U.S. Securities and Exchange Commission (SEC) for significant events that may affect a company’s financial health or market value, provide a unique insight into how companies publicly disclose significant ESG-related events and strategies.
+
+    Split into two categories (1) Voluntary (2) Event Driven disclosures. 
+    
+    The study's objectives include evaluating the evolution of ESG messaging in corporate fillings, paying attention to word-count-based 8-K measure as a proxy for firm-level voluntary disclosure.
+    
+    By doing so, it seeks to contribute to the ongoing dialogue on sustainable investing by offering new insights into the effectiveness of ESG disclosures as tools for investors and the broader implications of ESG practices on corporate performance and environmental impact.
+
 
 
 ## Examples of Brown Frims:
