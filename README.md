@@ -28,23 +28,23 @@ Concerns revolve around ongoing challenges regarding the lack of standardization
 
    Escrig-Olmedo et al. (2019) 
    
-    This study adopts a approach to dissect the ESG landscape  leveraging an existing categorization framework to differentiate between 'Brown' firms—those in the top 20 percent in terms of greenhouse gas emissions per unit of sales—and 'Green' firms, positioned in the bottom 20 percent by the same metric. 
-    
-    Through this lens, the research aims to explore the progression of the ESG movement by analyzing corporate 8-K filings from 2013 to 2023. 
-    
-    Form 8-K, known as a "current report," is a document required by the U.S. Securities and Exchange Commission (SEC). Publicly traded companies in the United States are mandated to file this form to announce significant events that shareholders should be aware of. 
-    
-    The purpose of Form 8-K is to provide the public with an up-to-date overview of material changes in a company's operations or management that might affect its financial health or stock value.
-    
-    (why did you chose 8-k's)    
-    
-    These filings, mandated by the U.S. Securities and Exchange Commission (SEC) for significant events that may affect a company’s financial health or market value, provide a unique insight into how companies publicly disclose significant ESG-related events and strategies.
+This study adopts a approach to dissect the ESG landscape  leveraging an existing categorization framework to differentiate between 'Brown' firms—those in the top 20 percent in terms of greenhouse gas emissions per unit of sales—and 'Green' firms, positioned in the bottom 20 percent by the same metric. 
 
-    Split into two categories (1) Voluntary (2) Event Driven disclosures. 
-    
-    The study's objectives include evaluating the evolution of ESG messaging in corporate fillings, paying attention to word-count-based 8-K measure as a proxy for firm-level voluntary disclosure.
-    
-    By doing so, it seeks to contribute to the ongoing dialogue on sustainable investing by offering new insights into the effectiveness of ESG disclosures as tools for investors and the broader implications of ESG practices on corporate performance and environmental impact.
+Through this lens, the research aims to explore the progression of the ESG movement by analyzing corporate 8-K filings from 2013 to 2023. 
+
+Form 8-K, known as a "current report," is a document required by the U.S. Securities and Exchange Commission (SEC). Publicly traded companies in the United States are mandated to file this form to announce significant events that shareholders should be aware of. 
+
+The purpose of Form 8-K is to provide the public with an up-to-date overview of material changes in a company's operations or management that might affect its financial health or stock value.
+
+(why did you chose 8-k's)    
+
+These filings, mandated by the U.S. Securities and Exchange Commission (SEC) for significant events that may affect a company’s financial health or market value, provide a unique insight into how companies publicly disclose significant ESG-related events and strategies.
+
+Split into two categories (1) Voluntary (2) Event Driven disclosures. 
+
+The study's objectives include evaluating the evolution of ESG messaging in corporate fillings, paying attention to word-count-based 8-K measure as a proxy for firm-level voluntary disclosure.
+
+By doing so, it seeks to contribute to the ongoing dialogue on sustainable investing by offering new insights into the effectiveness of ESG disclosures as tools for investors and the broader implications of ESG practices on corporate performance and environmental impact.
 
 
 
