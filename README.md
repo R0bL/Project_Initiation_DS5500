@@ -1,15 +1,61 @@
 # Project_Initiation_DS5500
 
-"E.S.G. stands for environmental, social, and governance, and E.S.G. investing is about allocating resources in a way that makes money while also improving the world." 
 
-https://freakonomics.com/podcast/are-e-s-g-investors-actually-helping-the-environment/
+## Project overview 
 
-(ESG)-driven portfolios are already a large and growing portion of global assets under management (35 Trillion).  And that’s expected to grow to about one-third of all assets under management by 2025 (Freakonomics). 
+The integration of Environmental, Social, and Governance (ESG) metrics into investment strategies signifies a notable shift towards sustainable financial practices, expected to influence a substantial portion of global asset management by 2025. This study aims to analyze corporate 8-K filings from 2013 to 2023, distinguishing between 'Brown' firms (top 20 percent in greenhouse gas emissions per unit of sales) and 'Green' firms (bottom 20 percent).
 
-Concerns revolve around ongoing challenges regarding the lack of standardization in disclosure standards, the metrics used to measure progress, and the units of measure for specific ESG issues. 
+This study assesses the evolution of ESG messaging within 8-K filings among 'brown' and 'green' firms, categorized based on their greenhouse gas emissions. It investigates the voluntary disclosure practices within these filings to understand their role in addressing or potentially facilitating greenwashing. The objective is to identify trends and strategies in ESG communication among companies with differing environmental impacts.
+
+## Background
+
+ESG metrics encompass three fundamental pillars: 
+
+1. The "E" dimension evaluates a company's management of natural resources and its environmental impact, encompassing both direct operations and supply chain activities.
+
+2. The "S" aspect pertains to social factors, assessing a company's effectiveness in navigating social trends, labor practices, and political dynamics.
+
+3. The "G" component of ESG focuses on governance factors, examining decision-making processes from governmental policy-making to the allocation of rights and responsibilities within corporations. This includes scrutiny of governance structures involving the board of directors, managers, shareholders, and stakeholders
 
 
+## The Landscape
+
+ESG ratings play a crucial role in guiding trillions of dollars in investments worldwide. For example, the investment strategy of the Maine Public Employees Retirement System Pension Fund is shaped by ESG criteria, highlighting the significance of integrating sustainability factors for long-term investment success.
+
+Maine is among six states with established ESG investment guidelines and policies, reflecting a growing recognition of the importance of sustainability considerations in investment decisions.
+
+However, the ESG movement finds itself embroiled in political debates. While political progressives view it as a means to address environmental challenges and safeguard the planet, Republican lawmakers often dismiss it as "woke investing" and seek to restrict its adoption through legislative measures.
+
+
+
+
+
+
+## The Challenges 
+
+
+1. Lack of transparency among the ESG raters on how the scores are assigned.
+2. Lack of standards on how a particular concept is measured.
+3. Questionable tradeoffs: high scores in one domain may offset very low scores in another area.
+4. Absence of an overall score combining performance scores along Environmental, Social, and Governance (ESG) axes; weights given to the "E," "S," and "G."
+5. Lack of acknowledgement of stakeholder expectations.
+
+
+
+## Exploring the ESG Movement through Corporate 8-K Filings
+
+This research endeavors to delve into the progression of the ESG movement by scrutinizing corporate 8-K filings spanning from 2013 to 2023. Through the lens of Brown versus Green firms, this study aims to unravel the intricate dynamics shaping ESG integration within corporate practices.
+
+Understanding Form 8-K
+
+Form 8-K, commonly referred to as a "current report," stands as a mandated document by the U.S. Securities and Exchange Commission (SEC) for publicly traded companies in the United States. Its purpose is to notify shareholders of significant events that may impact the company's financial health or stock value. This real-time disclosure mechanism provides investors with timely insights into material changes in a company's operations or management.
+
+Rationale for Using 8-K Filings
+
+The choice of 8-K filings as the primary source of analysis is informed by its unique capacity to offer a comprehensive view of how companies disclose ESG-related events and strategies. These filings are categorized into two main types: Voluntary and Event-Driven disclosures. By analyzing both categories, this research aims to gain a nuanced understanding of the motivations and practices surrounding ESG disclosures within the corporate landscape.
 ## Project Objective
+
+
 
  Title: Green vs. Brown: Tracking the ESG Evolution through Corporate 8-K Filings 
     
