@@ -3,7 +3,7 @@
 
 ## Project overview 
 
-The adoption of Environmental, Social, and Governance (ESG) metrics in investing represents a significant shift in the mindset of investors. ESG funds represent about $35 trillion globally invested and is projected to influence a third of global asset management by 2025. This research aims to dissect the ESG landscape by analyzing corporate 8-K filings from 2013 to 2023, distinguishing between between 'Brown' firms—those in the top 20 percent in terms of greenhouse gas emissions per unit of sales—and 'Green' firms, positioned in the bottom 20 percent 
+The adoption of Environmental, Social, and Governance (ESG) metrics in investing represents a significant shift in the mindset of investors. ESG funds represent about $35 trillion globally invested and is projected to influence a third of global asset managed by 2025. This research aims to dissect the ESG landscape by analyzing corporate 8-K filings from 2013 to 2023, distinguishing between between 'Brown' firms—those in the top 20 percent in terms of greenhouse gas emissions per unit of sales—and 'Green' firms, positioned in the bottom 20 percent 
 
 This study assesses the evolution of ESG messaging within 8-K filings. It investigates the voluntary disclosure practices within these filings to understand their role in addressing or potentially facilitating greenwashing. The objective is to identify trends and strategies in ESG communication among companies with differing environmental impacts.
 
