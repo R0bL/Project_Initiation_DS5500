@@ -35,11 +35,6 @@ However, the ESG movement finds itself embroiled in political discourse. While p
 
 
 
-## Case Study
-
-"ExxonMobil as a potential candidate to engage with, to try to drive value creation by making the business more sustainable? When you start looking at any potential activist target, you look for an outlier. And ExxonMobil was an outlier in that they had phenomenal assets, they had phenomenal engineering talent. Yet, they had underperformed, for nearly a decade, their peer group. This was a company who invented the lithium-ion battery, the company who was the first to actually scale solar production."
-
-
 
 
 ## The Challenges 
@@ -53,6 +48,8 @@ However, the ESG movement finds itself embroiled in political discourse. While p
 
 
 
+
+
 ## Exploring the ESG Movement through Corporate 8-K Filings
 
 Form 8-K, commonly referred to as a "current report," is a mandatory filing prescribed by the U.S. Securities and Exchange Commission (SEC) for publicly traded companies in the United States. Its purpose is to promptly notify shareholders of significant events that could impact the company's financial well-being or stock value. By offering a real-time overview of material changes in a company's operations or management, Form 8-K serves as a  tool for investors to stay informed about developments that may affect their investment decisions.
@@ -61,6 +58,14 @@ Form 8-K, commonly referred to as a "current report," is a mandatory filing pres
 ### Rationale for Using 8-K Filings:
 
 The choice of 8-K filings as the primary source of analysis is informed by its unique capacity to  view of how companies disclose  events and strategies. These filings are categorized into two main types: Voluntary and Event-Driven disclosures. By analyzing both categories, this research aims to gain a nuanced understanding of the motivations and practices surrounding ESG disclosures within the corporate landscape.
+
+
+## Case Study
+
+"ExxonMobil as a potential candidate to engage with, to try to drive value creation by making the business more sustainable? When you start looking at any potential activist target, you look for an outlier. And ExxonMobil was an outlier in that they had phenomenal assets, they had phenomenal engineering talent. Yet, they had underperformed, for nearly a decade, their peer group. This was a company who invented the lithium-ion battery, the company who was the first to actually scale solar production."
+
+
+
 
 ## Probelm Statement
  
