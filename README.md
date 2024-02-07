@@ -14,8 +14,6 @@ Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx, NewMarket, Marathon
 Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express
 
 
-This study assesses the evolution of ESG messaging within 8-K filings. Form 8-K, known as a ”current report,” is a document required by the U.S. Securities and Exchange Commission (SEC) for publicly traded companies in the United States to announce significant events that shareholders should be aware of.It investigates the voluntary disclosure practices within these filings to understand their role in addressing or potentially facilitating greenwashing. The objective is to identify trends and strategies in ESG communication among companies with differing environmental impacts.
-
 ## Background
 
 ESG metrics encompass three fundamental pillars: 
@@ -56,19 +54,9 @@ However, the ESG movement finds itself embroiled in political discourse. While p
 Form 8-K, commonly referred to as a "current report," is a mandatory filing prescribed by the U.S. Securities and Exchange Commission (SEC) for publicly traded companies in the United States. Its purpose is to promptly notify shareholders of significant events that could impact the company's financial well-being or stock value. By offering a real-time overview of material changes in a company's operations or management, Form 8-K serves as a  tool for investors to stay informed about developments that may affect their investment decisions.
 
 
-Rationale for Using 8-K Filings:
+### Rationale for Using 8-K Filings:
 
 The choice of 8-K filings as the primary source of analysis is informed by its unique capacity to  view of how companies disclose  events and strategies. These filings are categorized into two main types: Voluntary and Event-Driven disclosures. By analyzing both categories, this research aims to gain a nuanced understanding of the motivations and practices surrounding ESG disclosures within the corporate landscape.
-
-
-
-## Examples of Brown Frims:
-
-Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx, NewMarket, Marathon Petroleum
-
-## Example of Green Firms:
-
-Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express
 
 ## Probelm Statement
  
