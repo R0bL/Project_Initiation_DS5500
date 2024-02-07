@@ -164,7 +164,6 @@ Reporting: Document findings, methodology, and project implications
 
 3.  
 
-NLP use for Stock Prediction. 
 
 
 ## Related Projects
