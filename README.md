@@ -31,8 +31,8 @@ ESG metrics encompass three fundamental pillars:
 
 ESG ratings play a crucial role in guiding trillions of dollars in investments worldwide. For example, the investment strategy of the Maine Public Employees Retirement System Pension Fund is guided by ESG criteria, highlighting the significance of integrating sustainability factors for long-term investment success.
 
-Maine is among six states with established ESG investment guidelines and policies, reflecting a growing recognition of the importance of sustainability considerations in investment decisions.
-
+Maine is among six states with established ESG investment guidelines and policies
+.
 However, the ESG movement finds itself embroiled in political discourse. While political progressives view it as a means to address environmental challenges and safeguard the planet, Republican lawmakers often dismiss it as "woke investing" and seek to restrict its adoption through legislative measures.
 
 
