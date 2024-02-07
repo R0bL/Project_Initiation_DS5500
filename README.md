@@ -44,53 +44,12 @@ However, the ESG movement finds itself embroiled in political debates. While pol
 
 ## Exploring the ESG Movement through Corporate 8-K Filings
 
-This research endeavors to delve into the progression of the ESG movement by scrutinizing corporate 8-K filings spanning from 2013 to 2023. Through the lens of Brown versus Green firms, this study aims to unravel the intricate dynamics shaping ESG integration within corporate practices.
+Form 8-K, commonly referred to as a "current report," is a mandatory filing prescribed by the U.S. Securities and Exchange Commission (SEC) for publicly traded companies in the United States. Its purpose is to promptly notify shareholders of significant events that could impact the company's financial well-being or stock value. By offering a real-time overview of material changes in a company's operations or management, Form 8-K serves as a  tool for investors to stay informed about developments that may affect their investment decisions.
 
-Understanding Form 8-K
-
-Form 8-K, commonly referred to as a "current report," stands as a mandated document by the U.S. Securities and Exchange Commission (SEC) for publicly traded companies in the United States. Its purpose is to notify shareholders of significant events that may impact the company's financial health or stock value. This real-time disclosure mechanism provides investors with timely insights into material changes in a company's operations or management.
 
 Rationale for Using 8-K Filings
 
-The choice of 8-K filings as the primary source of analysis is informed by its unique capacity to offer a comprehensive view of how companies disclose ESG-related events and strategies. These filings are categorized into two main types: Voluntary and Event-Driven disclosures. By analyzing both categories, this research aims to gain a nuanced understanding of the motivations and practices surrounding ESG disclosures within the corporate landscape.
-## Project Objective
-
-
-
- Title: Green vs. Brown: Tracking the ESG Evolution through Corporate 8-K Filings 
-    
-  
-   The adoption of Environmental, Social, and Governance (ESG) metrics in investing marks a shift in how global asset are allocated (Mention School Divest to Invest), with ESG-driven assets are estimated to reach 35 trillion, it projected to account for one-third of global asset management by 2025. 
-
-   Political progressives think it will help save the planet. Republican lawmakers ridicule it as “woke investing,” and they’re trying to ban it.
-
-   This transition underscores the growing importance of sustainable investment practices. However, it also highlights significant challenges, notably:
-   
-   1. Lack of transparency among the ESG raters on how the scores are assigned
-   2. Lack of standards on how a particular concept is measured
-   3. Questionable tradeoffs: high scores in one domain may offset very low scores in another area
-   4. Absence of an overall score combining performance scores along (Environmental, social and governance axes) weights given to the "E" "S" and "G"
-   5. Lack of acknowledgement of stakeholder expectations
-
-   Escrig-Olmedo et al. (2019) 
-   
-This study adopts a approach to dissect the ESG landscape  leveraging an existing categorization framework to differentiate between 'Brown' firms—those in the top 20 percent in terms of greenhouse gas emissions per unit of sales—and 'Green' firms, positioned in the bottom 20 percent by the same metric. 
-
-Through this lens, the research aims to explore the progression of the ESG movement by analyzing corporate 8-K filings from 2013 to 2023. 
-
-Form 8-K, known as a "current report," is a document required by the U.S. Securities and Exchange Commission (SEC). Publicly traded companies in the United States are mandated to file this form to announce significant events that shareholders should be aware of. 
-
-The purpose of Form 8-K is to provide the public with an up-to-date overview of material changes in a company's operations or management that might affect its financial health or stock value.
-
-(why did you chose 8-k's)    
-
-These filings, mandated by the U.S. Securities and Exchange Commission (SEC) for significant events that may affect a company’s financial health or market value, provide a unique insight into how companies publicly disclose significant ESG-related events and strategies.
-
-Split into two categories (1) Voluntary (2) Event Driven disclosures. 
-
-The study's objectives include evaluating the evolution of ESG messaging in corporate fillings, paying attention to word-count-based 8-K measure as a proxy for firm-level voluntary disclosure.
-
-By doing so, it seeks to contribute to the ongoing dialogue on sustainable investing by offering new insights into the effectiveness of ESG disclosures as tools for investors and the broader implications of ESG practices on corporate performance and environmental impact.
+The choice of 8-K filings as the primary source of analysis is informed by its unique capacity to  view of how companies disclose  events and strategies. These filings are categorized into two main types: Voluntary and Event-Driven disclosures. By analyzing both categories, this research aims to gain a nuanced understanding of the motivations and practices surrounding ESG disclosures within the corporate landscape.
 
 
 
@@ -104,10 +63,7 @@ Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express
 
 ## Probelm Statement
  
-Put the Problem into Context:
-
-Companies and investors measure different things and report in different ways. It gets confusing, especially when investors try and de-code whether their money has made a difference or not.
-
+This study evaluates ESG messaging evolution in 8-k filings among 'brown' and 'green' firms, categorized by their greenhouse gas emissions—top and bottom 20 percent per unit of sales, respectively. It investigates voluntary disclosure practices within these filings to explore their role in addressing or facilitating greenwashing. The aim is to identify trends and strategies in ESG communication among high and low environmental impact companies.
 
 ## Project Road Map
 
