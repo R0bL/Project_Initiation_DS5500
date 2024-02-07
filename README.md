@@ -13,8 +13,7 @@ Concerns revolve around ongoing challenges regarding the lack of standardization
 
  Title: Green vs. Brown: Tracking the ESG Evolution through Corporate 8-K Filings 
     
-    Summary: 
-    
+  
    The adoption of Environmental, Social, and Governance (ESG) metrics in investing marks a shift in how global asset are allocated (Mention School Divest to Invest), with ESG-driven assets are estimated to reach 35 trillion, it projected to account for one-third of global asset management by 2025. 
 
    Political progressives think it will help save the planet. Republican lawmakers ridicule it as “woke investing,” and they’re trying to ban it.
