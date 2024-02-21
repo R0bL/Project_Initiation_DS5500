@@ -1,7 +1,7 @@
 # Project_Initiation_DS5500
 
 
-## Project overview 
+# Project overview 
 
 The adoption of Environmental, Social, and Governance (ESG) metrics in investing represents a significant shift from the tradtional metric to evaluate a companies performance. ESG funds represent about $35 trillion globally invested and is projected to influence a third of global asset managed by 2025. This research aims to dissect the ESG landscape by analyzing corporate 8-K filings from 2013 to 2023, distinguishing between between 'Brown' firms—those in the top 20 percent in terms of greenhouse gas emissions per unit of sales—and 'Green' firms, positioned in the bottom 20 percent 
 
