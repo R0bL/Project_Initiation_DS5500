@@ -63,7 +63,7 @@ The choice of 8-K filings as the primary source of analysis is informed by its u
 This study evaluates ESG messaging evolution in 8-k filings among 'brown' and 'green' firms, categorized by their greenhouse gas emissions—top and bottom 20 percent per unit of sales, respectively. It investigates voluntary disclosure practices within these filings to explore their role in addressing or facilitating greenwashing. The aim is to identify trends and strategies in ESG communication among high and low environmental impact companies.
 
 
-## Data Collection 
+# Data Collection 
 
 The data being evaluated are SEC filings of 1807 Equities held by the Norwegain Wealth Fund, downloaded from the SEC's Electronic Data Gathering, Analysis and Retrieval (EDGAR) website. 
 
