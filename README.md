@@ -127,7 +127,7 @@ data_frame_8k = pd.read_csv('dataset_8k.csv')
 data_frame_8k
 ```
 
-## Week 1 Report
+# Week 1 Report
 
 ### Project Updates
 
@@ -160,7 +160,7 @@ data_frame_8k
 
 
 
-#### Refrence
+# Refrence
 
 
 1. "Measuring Disclosure Using 8-K Filings"
