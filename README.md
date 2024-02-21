@@ -90,12 +90,12 @@ Last part runs the API:
 %%time
 
 dataset_config = EDGARDataSetConfig(
-    tickers_or_ciks=['amzn', 'goog', '27904', 'fb', 'msft', 'uber', 'nflx'],  # list of stock tickers or CIKs
-    form_types=['10-K', '10-Q', '8-K'],              # list of SEC form types
+    tickers_or_ciks=['amzn'],  # list of stock tickers or CIKs
+    form_types=['8-K'],                              # list of SEC form types
     filing_date_start='2019-01-01',                  # starting filing date
     filing_date_end='2020-12-31',                    # ending filing date
     email_as_user_agent='test-user@test.com')        # user agent email
-    
+
 data_loader = DataLoader(
     role=sagemaker.get_execution_role(),    # loading job execution role
     instance_count=1,                       # instances number, limit varies with instance type
@@ -106,11 +106,11 @@ data_loader = DataLoader(
     max_runtime_in_seconds=None,            # timeout in seconds. Default is 24 hours.
     sagemaker_session=sagemaker.Session(),  # session object
     tags=None)                              # a list of key-value pairs
-    
+
 data_loader.load(
     dataset_config,
-    's3://{}/{}'.format(S3_BUCKET_NAME, S3_FOLDER_NAME),     # output s3 prefix (both bucket and folder names are required)
-    'dataset_10k_10q_8k_2019_2021.csv',                                              # output file name
+    's3://{}/{}/{}'.format(bucket, sec_processed_folder, 'output'),    # output s3 prefix (both bucket and folder names are required)
+    'dataset_8k.csv',                                                  # output file name
     wait=True,
     logs=True)
 ```
