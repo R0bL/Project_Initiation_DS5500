@@ -89,6 +89,7 @@ See example of the API call:
 ```
 %%time
 
+### Top Part
 dataset_config = EDGARDataSetConfig(
     tickers_or_ciks=['amzn', 'ntflx'],  # list of stock tickers or CIKs
     form_types=['10-K', '10-Q'],                              # list of SEC form types
@@ -96,6 +97,7 @@ dataset_config = EDGARDataSetConfig(
     filing_date_end='2020-12-31',                    # ending filing date
     email_as_user_agent='test-user@test.com')        # user agent email
 
+### Middle Part
 data_loader = DataLoader(
     role=sagemaker.get_execution_role(),    # loading job execution role
     instance_count=1,                       # instances number, limit varies with instance type
@@ -107,6 +109,7 @@ data_loader = DataLoader(
     sagemaker_session=sagemaker.Session(),  # session object
     tags=None)                              # a list of key-value pairs
 
+### Bottom Part
 data_loader.load(
     dataset_config,
     's3://{}/{}/{}'.format(bucket, sec_processed_folder, 'output'),    # output s3 prefix (both bucket and folder names are required)
