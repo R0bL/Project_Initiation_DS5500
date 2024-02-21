@@ -74,10 +74,12 @@ https://github.com/aws/sagemaker-jumpstart-industry-pack
 _smjsindustry_ wraps the retrieval functionality into a SageMaker processing container to download a dataset of filings with metadata such as dates and parsed plaintext. The extracted dataframe is written to Amazon S3 storage as as CSV file. The API has three parts. 
 
 1. Top part specifies:
-a. Tickers of SEC CIK codes for the companies forms are being retrieved
-b. SEC Form Type (8-K. 10-K, 10-Q)
-c. Date range of forms by filing date
-d. The output CSV file and S3 bucket to store the dataset
+
+
+* Tickers of SEC CIK codes for the companies forms are being retrieved
+* SEC Form Type (8-K. 10-K, 10-Q)
+* Date range of forms by filing date
+* The output CSV file and S3 bucket to store the dataset
 
 2. Middle part shows how to assign system resources and has default values in place
 
