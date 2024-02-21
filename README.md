@@ -128,11 +128,19 @@ data_frame_8k = pd.read_csv('dataset_8k.csv')
 data_frame_8k
 ```
 
-## Project Road Map
+## Week 1 Report
 
-ESG Sentiment Analysis Project Using 8-K Filings
+I decieded on using Amazon SageMaker to pull the SEC filings: 
 
-#### 1. Compile List of 8-K Financial Disclosures using Amazon SageMaker API to Acess SEC's E
+1. I created a AWS domain, user-acess, virutal space
+2. 
+
+
+
+![ML-5455-image001-1](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/99c99bf2-fa08-408b-a5ee-9529786ba186)
+
+
+#### 1. Compile List of 8-K Financial Disclosures using Amazon SageMaker API to Acess SEC's 
 
 Time Frame: 2013 - 2023 
 
@@ -200,24 +208,6 @@ Sentiment Analysis Models: Choose from logistic regression, SVM, LSTM, or BERT m
 
 
 Model Training: Train the model using the manually labeled dataset.
-
-#### 6. Model Evaluation and Optimization
-
-Cross-Validation: Implement k-fold cross-validation for model performance.
-
-
-Metrics: Use accuracy, precision, recall, F1 score, and confusion matrices.
-
-#### 7. Analysis of ESG Sentiment Trends
-
-Time-Series Analysis: Examine sentiment trends over time.
-
-
-Comparative Analysis: Compare sentiments across industries or companies.
-
-#### 8. Visualization and Reporting
-
-Reporting: Document findings, methodology, and project implications 
 
 
 
