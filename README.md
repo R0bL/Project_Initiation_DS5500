@@ -1,6 +1,3 @@
-# Project_Initiation_DS5500
-
-
 # Project overview 
 
 The adoption of Environmental, Social, and Governance (ESG) metrics in investing represents a significant shift from the tradtional metric to evaluate a companies performance. ESG funds represent about $35 trillion globally invested and is projected to influence a third of global asset managed by 2025. This research aims to dissect the ESG landscape by analyzing corporate 8-K filings from 2013 to 2023, distinguishing between between 'Brown' firms—those in the top 20 percent in terms of greenhouse gas emissions per unit of sales—and 'Green' firms, positioned in the bottom 20 percent 
@@ -46,7 +43,7 @@ However, the ESG movement finds itself embroiled in political discourse. While p
 5. Lack of acknowledgement of stakeholder expectations.
 
 
-## Exploring the ESG Movement through Corporate 8-K Filings
+# Exploring the ESG Movement through Corporate 8-K Filings
 
 Form 8-K, commonly referred to as a "current report," is a mandatory filing prescribed by the U.S. Securities and Exchange Commission (SEC) for publicly traded companies in the United States. Its purpose is to promptly notify shareholders of significant events that could impact the company's financial well-being or stock value. By offering a real-time overview of material changes in a company's operations or management, Form 8-K serves as a  tool for investors to stay informed about developments that may affect their investment decisions.
 
