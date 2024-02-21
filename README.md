@@ -84,7 +84,10 @@ Top part specifies:
 
 Middle part shows how to assign system resources and has default values in place
 
-Last part runs the API:
+Last part runs the API
+
+
+See example of the API call: 
 
 ```
 %%time
