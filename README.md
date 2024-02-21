@@ -93,7 +93,7 @@ See example of the API call:
 %%time
 
 dataset_config = EDGARDataSetConfig(
-    tickers_or_ciks=['amzn'],  # list of stock tickers or CIKs
+    tickers_or_ciks=['amzn', 'ntflx'],  # list of stock tickers or CIKs
     form_types=['10-K'],                              # list of SEC form types
     filing_date_start='2019-01-01',                  # starting filing date
     filing_date_end='2020-12-31',                    # ending filing date
