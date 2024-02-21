@@ -119,6 +119,15 @@ data_loader.load(
 ```
 
 
+The output of the DataLoader processing job is a dataframe. The CSV file is downloaded from S3 and then read into a dataframe
+
+```
+client = boto3.client('s3')
+client.download_file(bucket, '{}/{}/{}'.format(sec_processed_folder, 'output', 'dataset_8k.csv'), 'dataset_8k.csv')
+data_frame_8k = pd.read_csv('dataset_8k.csv')
+data_frame_8k
+```
+
 ## Project Road Map
 
 ESG Sentiment Analysis Project Using 8-K Filings
