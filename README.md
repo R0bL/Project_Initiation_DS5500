@@ -5,6 +5,8 @@
 
 The adoption of Environmental, Social, and Governance (ESG) metrics in investing represents a significant shift from the tradtional metric to evaluate a companies performance. ESG funds represent about $35 trillion globally invested and is projected to influence a third of global asset managed by 2025. This research aims to dissect the ESG landscape by analyzing corporate 8-K filings from 2013 to 2023, distinguishing between between 'Brown' firms—those in the top 20 percent in terms of greenhouse gas emissions per unit of sales—and 'Green' firms, positioned in the bottom 20 percent 
 
+8-K filings can act as a proxy for measuring firm-level voluntary disclosures (He & Plumlee, 2020). Variations in corporate communications patterns may serve as indicators that explain variation in ESG ratings (Schimanski et al., 2024)
+
 ## Examples of Brown Frims:
 
 Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx, NewMarket, Marathon Petroleum
@@ -34,9 +36,6 @@ Maine is among six states with established ESG investment guidelines and policie
 However, the ESG movement finds itself embroiled in political discourse. While political progressives view it as a potential tool to address environmental challenges, Republican lawmakers critize it as "woke investing" and seek to restrict its adoption through legislative measures.
 
 
-
-
-
 ## The Challenges 
 
 
@@ -45,9 +44,6 @@ However, the ESG movement finds itself embroiled in political discourse. While p
 3. Questionable tradeoffs: high scores in one domain may offset very low scores in another area.
 4. Absence of an overall score combining performance scores along Environmental, Social, and Governance (ESG) axes; weights given to the "E," "S," and "G."
 5. Lack of acknowledgement of stakeholder expectations.
-
-
-
 
 
 ## Exploring the ESG Movement through Corporate 8-K Filings
@@ -65,17 +61,66 @@ The choice of 8-K filings as the primary source of analysis is informed by its u
 "ExxonMobil as a potential candidate to engage with, to try to drive value creation by making the business more sustainable? When you start looking at any potential activist target, you look for an outlier. And ExxonMobil was an outlier in that they had phenomenal assets, they had phenomenal engineering talent. Yet, they had underperformed, for nearly a decade, their peer group. This was a company who invented the lithium-ion battery, the company who was the first to actually scale solar production."
 
 
-
-
 ## Probelm Statement
  
 This study evaluates ESG messaging evolution in 8-k filings among 'brown' and 'green' firms, categorized by their greenhouse gas emissions—top and bottom 20 percent per unit of sales, respectively. It investigates voluntary disclosure practices within these filings to explore their role in addressing or facilitating greenwashing. The aim is to identify trends and strategies in ESG communication among high and low environmental impact companies.
+
+
+## Data Collection 
+
+The data being evaluated are 8-K SEC filings downloaded from the SEC's Electronic Data Gathering, Analysis and Retrieval (EDGAR) website. 
+
+Accessing the data via Amazon SageMaker using the  _smjsindustry_ see link below:
+
+https://github.com/aws/sagemaker-jumpstart-industry-pack
+
+_smjsindustry_ wraps the retrieval functionality into a SageMaker processing container to download a dataset of filings with metadata such as dates and parsed plaintext. The extracted dataframe is written to Amazon S3 storage as as CSV file. The API has three parts. 
+
+Top part specifies:
+1. Tickers of SEC CIK codes for the companies forms are being retrieved
+2. SEC Form Type (8-K. 10-K, 10-Q)
+3. Date range of forms by filing date
+4. The output CSV file and S3 bucket to store the dataset
+
+Middle part shows how to assign system resources and has default values in place
+
+Last part runs the API:
+
+```
+%%time
+
+dataset_config = EDGARDataSetConfig(
+    tickers_or_ciks=['amzn', 'goog', '27904', 'fb', 'msft', 'uber', 'nflx'],  # list of stock tickers or CIKs
+    form_types=['10-K', '10-Q', '8-K'],              # list of SEC form types
+    filing_date_start='2019-01-01',                  # starting filing date
+    filing_date_end='2020-12-31',                    # ending filing date
+    email_as_user_agent='test-user@test.com')        # user agent email
+    
+data_loader = DataLoader(
+    role=sagemaker.get_execution_role(),    # loading job execution role
+    instance_count=1,                       # instances number, limit varies with instance type
+    instance_type='ml.c5.2xlarge',          # instance type
+    volume_size_in_gb=30,                   # size in GB of the EBS volume to use
+    volume_kms_key=None,                    # KMS key for the processing volume
+    output_kms_key=None,                    # KMS key ID for processing job outputs
+    max_runtime_in_seconds=None,            # timeout in seconds. Default is 24 hours.
+    sagemaker_session=sagemaker.Session(),  # session object
+    tags=None)                              # a list of key-value pairs
+    
+data_loader.load(
+    dataset_config,
+    's3://{}/{}'.format(S3_BUCKET_NAME, S3_FOLDER_NAME),     # output s3 prefix (both bucket and folder names are required)
+    'dataset_10k_10q_8k_2019_2021.csv',                                              # output file name
+    wait=True,
+    logs=True)
+```
+
 
 ## Project Road Map
 
 ESG Sentiment Analysis Project Using 8-K Filings
 
-#### 1. Compile List of 8-K Financial Disclosures
+#### 1. Compile List of 8-K Financial Disclosures using Amazon SageMaker API to Acess SEC's E
 
 Time Frame: 2013 - 2023 
 
@@ -114,7 +159,9 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4510212#:~:text=To%20better%
 
 
 * event-driven 8-K, Items (all 8-K items except Items 2.02, 7.01, 8.01, and 9.01)
-* disclosure-driven, Items 2.02, 7.01, and 8.01 constitute 8-K items with a voluntary disclosure component 
+* disclosure-driven, Items 2.02, 7.01, and 8.01 constitute 8-K items with a voluntary disclosure component
+
+* 
 #### 2. Data Extraction and Preprocessing
 
 Extract Relevant Sections: Identify and extract ESG-relevant sections from 8-K filings
