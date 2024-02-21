@@ -91,7 +91,7 @@ See example of the API call:
 
 dataset_config = EDGARDataSetConfig(
     tickers_or_ciks=['amzn', 'ntflx'],  # list of stock tickers or CIKs
-    form_types=['10-K'],                              # list of SEC form types
+    form_types=['10-K', '10-Q'],                              # list of SEC form types
     filing_date_start='2019-01-01',                  # starting filing date
     filing_date_end='2020-12-31',                    # ending filing date
     email_as_user_agent='test-user@test.com')        # user agent email
@@ -122,8 +122,8 @@ The output of the DataLoader processing job is a dataframe. The CSV file is down
 
 ```
 client = boto3.client('s3')
-client.download_file(bucket, '{}/{}/{}'.format(sec_processed_folder, 'output', 'dataset_8k.csv'), 'dataset_8k.csv')
-data_frame_8k = pd.read_csv('dataset_8k.csv')
+client.download_file(bucket, '{}/{}/{}'.format(sec_processed_folder, 'output', 'dataset_10k.csv'), 'dataset_8k.csv')
+data_frame_8k = pd.read_csv('dataset_10k.csv')
 data_frame_8k
 ```
 
