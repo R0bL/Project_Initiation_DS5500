@@ -138,7 +138,7 @@ data_frame_8k
 
 1. Created a AWS domain, user-acess, virutal space to pull SEC filings. My prefrence would be to bring the project out SageMaker. 
 
-2. I am having some issues managing user execution roles, I am still fimilarizing myself with SageMaker but sometime I get a **403 error** when I pull using the API. Alternative: OpenEDGAR: Open Source Software for SEC EDGAR Analysis (https://law.mit.edu/pub/openedgar/release/1)
+2. I am having some issues managing user execution roles, I am still fimilarizing myself with SageMaker but sometime I get a **403 error** when I pull using the API. Alternative: "OpenEDGAR: Open Source Software for SEC EDGAR Analysis" (https://law.mit.edu/pub/openedgar/release/1)
 
 ### Week 1 Goals
 
