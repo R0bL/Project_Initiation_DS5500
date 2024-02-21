@@ -161,16 +161,11 @@ data_frame_8k
 
 
 
-_____________________________________________________________________
 
 
-#### 1. Compile List of 8-K Financial Disclosures using Amazon SageMaker API to Acess SEC's 
+#### Refrence
 
-Time Frame: 2013 - 2023 
 
-Data Source: Utilize the SEC's EDGAR system for 8-K filings access
-
-Refrence:
 1. "Measuring Disclosure Using 8-K Filings"
 
 
@@ -206,7 +201,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4510212#:~:text=To%20better%
 * disclosure-driven, Items 2.02, 7.01, and 8.01 constitute 8-K items with a voluntary disclosure component
 
   
-#### 2. Data Extraction and Preprocessing
+4.  Data Extraction and Preprocessing
 
 Extract Relevant Sections: Identify and extract ESG-relevant sections from 8-K filings
 
@@ -214,7 +209,7 @@ Text Cleaning: Standardize formatting and remove non-essential elements.
 
 Refrence: https://scholar.harvard.edu/jbenchimol/files/text-mining-methodologies.pdf
 
-#### 3. Labeling Data for Sentiment Analysis
+5.  Labeling Data for Sentiment Analysis
 
 Develop a Labeling Guide: Define positive, negative, and neutral ESG sentiments.
 
