@@ -94,7 +94,7 @@ See example of the API call:
 
 dataset_config = EDGARDataSetConfig(
     tickers_or_ciks=['amzn'],  # list of stock tickers or CIKs
-    form_types=['8-K'],                              # list of SEC form types
+    form_types=['10-K'],                              # list of SEC form types
     filing_date_start='2019-01-01',                  # starting filing date
     filing_date_end='2020-12-31',                    # ending filing date
     email_as_user_agent='test-user@test.com')        # user agent email
@@ -121,6 +121,8 @@ data_loader.load(
 
 The output of the DataLoader processing job is a dataframe. The CSV file is downloaded from S3 and then read into a dataframe
 
+![ML-5455-image001-1](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/99c99bf2-fa08-408b-a5ee-9529786ba186)
+
 ```
 client = boto3.client('s3')
 client.download_file(bucket, '{}/{}/{}'.format(sec_processed_folder, 'output', 'dataset_8k.csv'), 'dataset_8k.csv')
@@ -130,14 +132,20 @@ data_frame_8k
 
 ## Week 1 Report
 
-I decieded on using Amazon SageMaker to pull the SEC filings: 
+### Project Updates
 
-1. I created a AWS domain, user-acess, virutal space
-2. 
+1. Created a AWS domain, user-acess, virutal space to pull SEC filings. My prefrence would be to bring the project out SageMaker. 
+
+2. I am having some issues managing user execution roles, I am still fimilarizing myself with SageMaker but sometime I get a **403 error** when I pull using the API. Alternative: https://github.com/jadchaar/sec-edgar-downloader
+
+### Week 1 Goals
+
+My goal for this week is to order 1,807 Equities held by the Norwegain Wealth Fund in the US by "High Impact/Low Impact" using S&P Trucost data
+
+1. 
 
 
 
-![ML-5455-image001-1](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/99c99bf2-fa08-408b-a5ee-9529786ba186)
 
 
 #### 1. Compile List of 8-K Financial Disclosures using Amazon SageMaker API to Acess SEC's 
@@ -181,7 +189,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4510212#:~:text=To%20better%
 * event-driven 8-K, Items (all 8-K items except Items 2.02, 7.01, 8.01, and 9.01)
 * disclosure-driven, Items 2.02, 7.01, and 8.01 constitute 8-K items with a voluntary disclosure component
 
-* 
+  
 #### 2. Data Extraction and Preprocessing
 
 Extract Relevant Sections: Identify and extract ESG-relevant sections from 8-K filings
@@ -197,18 +205,6 @@ Develop a Labeling Guide: Define positive, negative, and neutral ESG sentiments.
 Manual Labeling: Label a subset of filings for training the sentiment analysis model.
 
 Refrence: https://aws.amazon.com/blogs/machine-learning/use-sec-text-for-ratings-classification-using-multimodal-ml-in-amazon-sagemaker-jumpstart/
-
-#### 4. Feature Extraction
-
-NLP Techniques: Apply TF-IDF, sentiment scores, and word embeddings for data conversion.
-
-#### 5. Model Selection and Training
-
-Sentiment Analysis Models: Choose from logistic regression, SVM, LSTM, or BERT models.
-
-
-Model Training: Train the model using the manually labeled dataset.
-
 
 
 
