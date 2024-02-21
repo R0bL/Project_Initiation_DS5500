@@ -68,7 +68,7 @@ This study evaluates ESG messaging evolution in 8-k filings among 'brown' and 'g
 
 ## Data Collection 
 
-The data being evaluated are 8-K SEC filings downloaded from the SEC's Electronic Data Gathering, Analysis and Retrieval (EDGAR) website. 
+The data being evaluated are SEC filings of 1807 Equities held by the Norwegain Wealth Fund, downloaded from the SEC's Electronic Data Gathering, Analysis and Retrieval (EDGAR) website. 
 
 Accessing the data via Amazon SageMaker using the  _smjsindustry_ see link below:
 
@@ -140,9 +140,25 @@ data_frame_8k
 
 ### Week 1 Goals
 
-My goal for this week is to order 1,807 Equities held by the Norwegain Wealth Fund in the US by "High Impact/Low Impact" using S&P Trucost data
+1, Split "High Impact/Low Impact" dataframe by industry run TF-IDF
 
-1. 
+2. TF-IDF Embeding, create timeline of corprate communcations, compare by Industry
+
+**Deliverable** 11 csv files stored in S3 bucket
+
+1. Consumer Discretionary
+2. Financials
+3. Consumer Staples
+4. Industrials
+5. Basic Materials
+6. Health Care
+7. Real Estate
+8. Telecommunications
+9. Technology
+10. Utilities
+11. Energy 
+
+
 
 
 
