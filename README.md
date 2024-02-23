@@ -161,6 +161,7 @@ data_frame_8k
 11. Energy 
 
 
+<img width="910" alt="aligned_umap_politics_demo_spaghetti" src="https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/036510c0-e3f1-440d-ad61-521b2e15caf7">
 
 
 
