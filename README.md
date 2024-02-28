@@ -125,6 +125,9 @@ The output of the DataLoader processing job is a dataframe. The CSV file is down
 
 ![ML-5455-image001-1](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/99c99bf2-fa08-408b-a5ee-9529786ba186)
 
+
+![download](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/dae97948-717a-43ed-b5a4-7f2e20cc05da)
+
 ```
 client = boto3.client('s3')
 client.download_file(bucket, '{}/{}/{}'.format(sec_processed_folder, 'output', 'dataset_10k.csv'), 'dataset_8k.csv')
