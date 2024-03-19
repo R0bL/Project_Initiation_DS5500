@@ -38,11 +38,19 @@ Form 8-K, commonly referred to as a "current report," is a mandatory filing pres
 This study evaluates ESG messaging evolution in 10-k filings. The aim is to identify trends and strategies in ESG communication among high and low environmental impact companies.
 
 
-## Step 1: Data Collection from 
+## Step 1: Data Collection
+Norway's sovereign wealth fund
 
-[The](https://www.nbim.no/en/responsible-investment/voting/our-voting-records/api-access-to-our-voting/) 
+### Step 1A: Get list of US Equities held by Norewegian Wealth Fund from 2013-2023
 
+
+A link to the API can be found here: [Norges Bank Investment Management API](https://www.nbim.no/en/responsible-investment/voting/our-voting-records/api-access-to-our-voting/) 
+
+
+I used this code to collect 
 ```
+api_key = " Insert Your API Key Here" 
+
 def fetch_company_details(api_key, company_name):
     detail_url = f"https://vd.a.nbim.no/v1/query/company/{requests.utils.quote(company_name)}"
     headers = {"x-api-key": api_key}
@@ -84,6 +92,8 @@ def build_companies_dataframe(api_key, companies_list, save_path):
         return pd.DataFrame()
 
 ```
+
+
 
 ```
 
@@ -131,35 +141,8 @@ _smjsindustry_ wraps the retrieval functionality into a SageMaker processing con
 See example of the API call: 
 
 ```
-%%time
 
-### Top Part
-dataset_config = EDGARDataSetConfig(
-    tickers_or_ciks=['amzn', 'ntflx'],  # list of stock tickers or CIKs
-    form_types=['10-K', '10-Q'],                              # list of SEC form types
-    filing_date_start='2019-01-01',                  # starting filing date
-    filing_date_end='2020-12-31',                    # ending filing date
-    email_as_user_agent='test-user@test.com')        # user agent email
 
-### Middle Part
-data_loader = DataLoader(
-    role=sagemaker.get_execution_role(),    # loading job execution role
-    instance_count=1,                       # instances number, limit varies with instance type
-    instance_type='ml.c5.2xlarge',          # instance type
-    volume_size_in_gb=30,                   # size in GB of the EBS volume to use
-    volume_kms_key=None,                    # KMS key for the processing volume
-    output_kms_key=None,                    # KMS key ID for processing job outputs
-    max_runtime_in_seconds=None,            # timeout in seconds. Default is 24 hours.
-    sagemaker_session=sagemaker.Session(),  # session object
-    tags=None)                              # a list of key-value pairs
-
-### Bottom Part
-data_loader.load(
-    dataset_config,
-    's3://{}/{}/{}'.format(bucket, sec_processed_folder, 'output'),    # output s3 prefix (both bucket and folder names are required)
-    'dataset_8k.csv',                                                  # output file name
-    wait=True,
-    logs=True)
 ```
 
 
