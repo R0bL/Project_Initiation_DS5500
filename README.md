@@ -1,19 +1,5 @@
 # Project overview 
 
-The adoption of Environmental, Social, and Governance (ESG) metrics in investing represents a significant shift from the tradtional metric to evaluate a companies performance. ESG funds represent about $35 trillion globally invested and is projected to influence a third of global asset managed by 2025. This research aims to dissect the ESG landscape by analyzing corporate 8-K filings from 2013 to 2023, distinguishing between between 'Brown' firms—those in the top 20 percent in terms of greenhouse gas emissions per unit of sales—and 'Green' firms, positioned in the bottom 20 percent 
-
-8-K filings can act as a proxy for measuring firm-level voluntary disclosures (He & Plumlee, 2020). Variations in corporate communications patterns may serve as indicators that explain variation in ESG ratings (Schimanski et al., 2024)
-
-## Examples of Brown Frims:
-
-Duke Energy, Southwest Airlines, Tyson Foods, DuPont, FedEx, NewMarket, Marathon Petroleum
-
-## Example of Green Firms:
-
-Spotify, Prudential, Goldman Sachs, Allstate, MetLife, American Express
-
-
-## Background
 
 ESG metrics encompass three fundamental pillars: 
 
@@ -47,23 +33,77 @@ However, the ESG movement finds itself embroiled in political discourse. While p
 
 Form 8-K, commonly referred to as a "current report," is a mandatory filing prescribed by the U.S. Securities and Exchange Commission (SEC) for publicly traded companies in the United States. Its purpose is to promptly notify shareholders of significant events that could impact the company's financial well-being or stock value. By offering a real-time overview of material changes in a company's operations or management, Form 8-K serves as a  tool for investors to stay informed about developments that may affect their investment decisions.
 
-
-### Rationale for Using 8-K Filings:
-
-The choice of 8-K filings as the primary source of analysis is informed by its unique capacity to  view of how companies disclose  events and strategies. These filings are categorized into two main types: Voluntary and Event-Driven disclosures. By analyzing both categories, this research aims to gain a nuanced understanding of the motivations and practices surrounding ESG disclosures within the corporate landscape.
-
-
-## Case Study
-
-"ExxonMobil as a potential candidate to engage with, to try to drive value creation by making the business more sustainable? When you start looking at any potential activist target, you look for an outlier. And ExxonMobil was an outlier in that they had phenomenal assets, they had phenomenal engineering talent. Yet, they had underperformed, for nearly a decade, their peer group. This was a company who invented the lithium-ion battery, the company who was the first to actually scale solar production."
-
-
 ## Probelm Statement
  
-This study evaluates ESG messaging evolution in 8-k filings among 'brown' and 'green' firms, categorized by their greenhouse gas emissions—top and bottom 20 percent per unit of sales, respectively. It investigates voluntary disclosure practices within these filings to explore their role in addressing or facilitating greenwashing. The aim is to identify trends and strategies in ESG communication among high and low environmental impact companies.
+This study evaluates ESG messaging evolution in 10-k filings. The aim is to identify trends and strategies in ESG communication among high and low environmental impact companies.
 
 
-# Data Collection 
+# Data Collection
+
+```
+def fetch_company_details(api_key, company_name):
+    detail_url = f"https://vd.a.nbim.no/v1/query/company/{requests.utils.quote(company_name)}"
+    headers = {"x-api-key": api_key}
+    response = requests.get(detail_url, headers=headers)
+    if response.status_code == 200:
+        return response.json()
+    elif response.status_code == 429:
+        print("Rate limit exceeded. Sleeping...")
+        time.sleep(900)  # Sleep time might need adjustment
+        return fetch_company_details(api_key, company_name)
+    else:
+        print(f"Failed to fetch details for company {company_name}: {response.status_code}")
+        return {}
+
+
+def build_companies_dataframe(api_key, companies_list, save_path):
+    detailed_companies = []
+    start_from_index = get_last_processed_index(companies_list, save_path)
+
+    for i, company in enumerate(tqdm(companies_list[start_from_index:], desc="Fetching company details"), start=start_from_index):
+        company_name = company['n']
+        company_details = fetch_company_details(api_key, company_name)
+        if 'companies' in company_details:
+            for detail in company_details['companies']:
+                detailed_companies.append({
+                    'Company Name': company_name,
+                    'Ticker': detail.get('Ticker', 'N/A'),
+                    'Country': detail.get('country', 'N/A')
+                })
+        if (i + 1 - start_from_index) % 5 == 0 or i == len(companies_list) - 1:
+            pd.DataFrame(detailed_companies).to_csv(save_path, mode='a', header=not os.path.exists(save_path), index=False)
+            detailed_companies = []  # Reset to avoid re-saving data
+
+        time.sleep(1)  # Consider dynamic adjustment based on API's rate limiting response
+
+    if os.path.exists(save_path):
+        return pd.read_csv(save_path)
+    else:
+        return pd.DataFrame()
+
+```
+
+```
+
+
+
+def get_last_processed_index(companies_list, save_path):
+    try:
+        df = pd.read_csv(save_path)
+        # Correct column name to 'Company Name'
+        last_processed_company = df.iloc[-1]['11 88 0 Solutions AG']
+        for index, company in enumerate(companies_list):
+            if company['n'] == last_processed_company:
+                return index + 1  # Resume from the next company
+    except (pd.errors.EmptyDataError, FileNotFoundError):
+        print("CSV file is empty or does not exist.")
+    return 0
+```
+
+
+
+
+
 
 The data being evaluated are SEC filings of 1807 Equities held by the Norwegain Wealth Fund, downloaded from the SEC's Electronic Data Gathering, Analysis and Retrieval (EDGAR) website. 
 
