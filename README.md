@@ -109,6 +109,7 @@ def get_last_processed_index(companies_list, save_path):
     return 0
 ```
 
+### Step 1B: Cross refrence data with yfinance
 
 The data being evaluated are SEC filings of 1260 Equities held by the Norwegain Wealth Fund, downloaded from the SEC's Electronic Data Gathering, Analysis and Retrieval (EDGAR) website. 
 
@@ -147,24 +148,6 @@ df.head()
 
 
 
-https://github.com/aws/sagemaker-jumpstart-industry-pack
-
-_smjsindustry_ wraps the retrieval functionality into a SageMaker processing container to download a dataset of filings with metadata such as dates and parsed plaintext. The extracted dataframe is written to Amazon S3 storage as as CSV file. The API has three parts. 
-
-1. Top part specifies:
-
-
-* Tickers of SEC CIK codes for the companies forms are being retrieved
-* SEC Form Type (8-K. 10-K, 10-Q)
-* Date range of forms by filing date
-* The output CSV file and S3 bucket to store the dataset
-
-2. Middle part shows how to assign system resources and has default values in place
-
-3. Last part runs the API
-
-
-See example of the API call: 
 
 ```
 
