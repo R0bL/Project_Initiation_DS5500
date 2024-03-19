@@ -260,21 +260,12 @@ Item 1A. Risk Factors You should carefully read the following discussion of sign
 
 ### Week 3 goals
 
-1. Create dataframe for embedding
+1. Create dataframe for embedding across 1260 companies. 
 2. Generate U-MAP for a single time slice
-3. 
-   
-   
 
 
+![Screen Shot 2024-03-19 at 7 43 41 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/37b3439d-2499-4e93-aafa-6526b6b12cf3)
 
-
-
-
-
-AlignedUMAP for Time Varying Data
-
-<img width="910" alt="aligned_umap_politics_demo_spaghetti" src="https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/036510c0-e3f1-440d-ad61-521b2e15caf7">
 
 
 
