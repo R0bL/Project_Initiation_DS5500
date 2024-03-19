@@ -145,6 +145,7 @@ df['Sector'] = df['Ticker'].progress_apply(fetch_sector)
 df.head()
 ```
 
+![Screen Shot 2024-03-19 at 7 20 50 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/d36aca51-16bc-4f04-949f-99ff43b6d238)
 
 
 
