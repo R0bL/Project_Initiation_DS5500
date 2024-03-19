@@ -212,17 +212,16 @@ Item 1A. Risk Factors You should carefully read the following discussion of sign
 
 ### Project Updates
 
-1. Created a AWS domain, user-acess, virutal space to pull SEC filings. My prefrence would be to bring the project out SageMaker. 
+1. Access company list of Norwegian Wealth Fund API: 
 
-2. I am having some issues managing user execution roles, I am still fimilarizing myself with SageMaker but sometime I get a **403 error** when I pull using the API. Alternative: "OpenEDGAR: Open Source Software for SEC EDGAR Analysis" (https://law.mit.edu/pub/openedgar/release/1)
 
 ### Week 1 Goals
 
-1, Split "High Impact/Low Impact" dataframe by industry run TF-IDF
+1. Build company database
 
-2. TF-IDF Embeding, create timeline of corprate communcations, compare by Industry
+2. File list of 10-K companie by industry: 
 
-**Deliverable** 11 csv files stored in S3 bucket
+**Deliverable** Filing by industry
 
 1. Consumer Discretionary
 2. Financials
@@ -234,7 +233,43 @@ Item 1A. Risk Factors You should carefully read the following discussion of sign
 8. Telecommunications
 9. Technology
 10. Utilities
-11. Energy 
+11. Energy
+
+
+
+# Week 2 Report
+
+### Project Updates
+
+1. Pull 10-K filings using sec-io
+2. Validate data using yfinance
+   
+
+### Week 2 Goals
+
+1. Clean text
+2. Prepare of embedding
+
+
+# Week 3 Report
+
+### Project Updates
+
+1. Create standarized notebooks to pull data
+2. Started running TF-IDF
+
+### Week 3 goals
+
+1. Create dataframe for embedding
+2. Generate U-MAP for a single time slice
+3. 
+   
+   
+
+
+
+
+
 
 
 AlignedUMAP for Time Varying Data
