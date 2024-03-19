@@ -93,7 +93,7 @@ def build_companies_dataframe(api_key, companies_list, save_path):
 
 ```
 
-Had to capture the database in multiple blocks: 
+If API times out, restart at index: 
 
 ```
 def get_last_processed_index(companies_list, save_path):
