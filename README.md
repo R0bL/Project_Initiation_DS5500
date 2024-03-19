@@ -186,19 +186,21 @@ metadata
 ![Screen Shot 2024-03-19 at 7 29 31 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/ae71069d-a4d8-417e-9eb7-5db42130d78c)
 
 
-The output of the DataLoader processing job is a dataframe. The CSV file is downloaded from S3 and then read into a dataframe
-
-![ML-5455-image001-1](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/99c99bf2-fa08-408b-a5ee-9529786ba186)
-
-
-![download](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/dae97948-717a-43ed-b5a4-7f2e20cc05da)
 
 ```
-client = boto3.client('s3')
-client.download_file(bucket, '{}/{}/{}'.format(sec_processed_folder, 'output', 'dataset_10k.csv'), 'dataset_8k.csv')
-data_frame_8k = pd.read_csv('dataset_10k.csv')
-data_frame_8k
+# Example 10-K filing
+filing_url = metadata['linkToFilingDetails'][0]
+
+# get the standardized and cleaned text of section 1A "Risk Factors"
+section_text = extractorApi.get_section(filing_url, "1A", "text")
+
+
+# we use a regular expression to substitute new line characters and HTML entities
+# with an empty string ""
+import re
+cleaned_section = re.sub(r"\n|&#[0-9]+;", "", section_text)
 ```
+
 
 # Week 1 Report
 
