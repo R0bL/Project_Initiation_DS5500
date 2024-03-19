@@ -186,6 +186,7 @@ metadata
 ![Screen Shot 2024-03-19 at 7 29 31 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/ae71069d-a4d8-417e-9eb7-5db42130d78c)
 
 
+Example pull for a 10-K document, get section 1A Risks and clean the text) 
 
 ```
 # Example 10-K filing
@@ -202,6 +203,9 @@ cleaned_section = re.sub(r"\n|&#[0-9]+;", "", section_text)
 ```
 
 
+```
+Item 1A. Risk Factors You should carefully read the following discussion of significant factors, events and uncertainties when evaluating our business and the forward-looking information contained in this Form 10-K. The events and consequences discussed in these risk factors could materially and adversely affect our business, operating results, liquidity and financial condition. While we believe we have identified and discussed below the key risk factors affecting our business, these risk factors do not identify all the risks we face, and there may be additional risks and uncertainties that we do not presently know or that we do not currently believe to be significant that may have a material adverse effect on our business, performance or financial condition in the future. Operational  Financial Risk Factors Our uneven sales cycle makes planning and inventory management difficult and future financial results less predictable. Our quarterly sales often have reflected a pattern in which a disproportionate percentage of each quarters total sales occur towards the end of the quarter, in particular for sales of hardware and software products. This uneven sales pattern makes predicting net revenue, earnings, cash flow from operations and working capital for each financial period difficult, increases the risk of unanticipated variations in our quarterly results and financial condition and places pressure on our inventory management and logistics systems. If predicted demand is substantially greater than orders, there may be excess inventory. Alternatively, if orders substantially exceed predicted demand, we may not be able to fulfill all of the orders received in each quarter and such orders may be canceled. Depending on when they occur in a quarter, developments such as an information systems failure, component pricing movements, component shortages or global logistics disruptions could adversely impact our inventory levels and results of operations in a manner that is disproportionate to the number of days in the quarter affected. The variety of products that we sell could cause significant quarterly fluctuations in our gross profit margins, and those fluctuations in margins could cause fluctuations in operating income or loss and net income or loss.
+```
 # Week 1 Report
 
 ### Project Updates
