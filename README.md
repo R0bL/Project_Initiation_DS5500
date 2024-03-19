@@ -39,7 +39,6 @@ This study evaluates ESG messaging evolution in 10-k filings. The aim is to iden
 
 
 ## Step 1: Data Collection
-Norway's sovereign wealth fund
 
 ### Step 1A: Get list of US Equities held by Norewegian Wealth Fund from 2013-2023
 
@@ -47,7 +46,8 @@ Norway's sovereign wealth fund
 A link to the API can be found here: [Norges Bank Investment Management API](https://www.nbim.no/en/responsible-investment/voting/our-voting-records/api-access-to-our-voting/) 
 
 
-I used this code to collect 
+I used this code to get all companies listed in their database: 
+
 ```
 api_key = " Insert Your API Key Here" 
 
@@ -93,7 +93,7 @@ def build_companies_dataframe(api_key, companies_list, save_path):
 
 ```
 
-
+Had to capture the database in multiple blocks: 
 
 ```
 
