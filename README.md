@@ -96,9 +96,6 @@ def build_companies_dataframe(api_key, companies_list, save_path):
 Had to capture the database in multiple blocks: 
 
 ```
-
-
-
 def get_last_processed_index(companies_list, save_path):
     try:
         df = pd.read_csv(save_path)
@@ -113,13 +110,42 @@ def get_last_processed_index(companies_list, save_path):
 ```
 
 
+The data being evaluated are SEC filings of 1260 Equities held by the Norwegain Wealth Fund, downloaded from the SEC's Electronic Data Gathering, Analysis and Retrieval (EDGAR) website. 
+
+Cross refrenced data pulled with y_finance [yfinance](https://pypi.org/project/yfinance/) - Norwegain Wealth Fund Database did not have the correct industry tags: 
 
 
 
+```
+import pandas as pd
+import yfinance as yf
+from tqdm import tqdm
 
-The data being evaluated are SEC filings of 1807 Equities held by the Norwegain Wealth Fund, downloaded from the SEC's Electronic Data Gathering, Analysis and Retrieval (EDGAR) website. 
+# Assuming 'test' is your dataframe and it already exists
+# Make sure it is either the full dataframe or a copy, to avoid SettingWithCopyWarning:
+# test = df.head().copy()
 
-Accessing the data via Amazon SageMaker using the  _smjsindustry_ see link below:
+# Enable tqdm for pandas apply
+tqdm.pandas()
+
+# Function to fetch sector for a ticker
+def fetch_sector(ticker):
+    try:
+        ticker_data = yf.Ticker(ticker)
+        return ticker_data.info.get('sector', "N/A")
+    except Exception as e:
+        return "Error"
+
+# Apply the function to your dataframe to create a new 'Sector' column
+# Using progress_apply instead of apply to show the progress bar
+df['Sector'] = df['Ticker'].progress_apply(fetch_sector)
+
+# Display the updated dataframe
+df.head()
+```
+
+
+
 
 https://github.com/aws/sagemaker-jumpstart-industry-pack
 
