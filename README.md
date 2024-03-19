@@ -149,13 +149,41 @@ df.head()
 
 
 
-### Step 1C: Get list of US Equities held by Norewegian Wealth Fund from 2013-2023
+### Step 1C: Use sec-api.io to pull 10-K by ticker: 
+
+See link: [SEC-API](https://sec-api.io/)
+
+```
+!pip install sec-api
+```
+
+See query: 
 
 
 ```
+query = {
+  "query": { "query_string": { 
+      "query": "ticker:DDD AND filedAt:[2013-01-01 TO 2023-12-31] AND formType:\"10-K\"",
+      "time_zone": "America/New_York"
+  } },
+  "from": "0",
+  "size": "10",
+  "sort": [{ "filedAt": { "order": "desc" } }]
+}
 
+response = queryApi.get_filings(query)
+```
+
+Convert to Pandas Dataframe: 
 
 ```
+import pandas as pd
+
+metadata = pd.DataFrame.from_records(response['filings'])
+metadata
+```
+
+![Screen Shot 2024-03-19 at 7 29 31 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/ae71069d-a4d8-417e-9eb7-5db42130d78c)
 
 
 The output of the DataLoader processing job is a dataframe. The CSV file is downloaded from S3 and then read into a dataframe
