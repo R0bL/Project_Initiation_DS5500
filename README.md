@@ -116,7 +116,6 @@ The data being evaluated are SEC filings of 1260 Equities held by the Norwegain 
 Cross refrenced data pulled with y_finance [yfinance](https://pypi.org/project/yfinance/) - Norwegain Wealth Fund Database did not have the correct industry tags: 
 
 
-
 ```
 import pandas as pd
 import yfinance as yf
@@ -146,6 +145,11 @@ df.head()
 ```
 
 ![Screen Shot 2024-03-19 at 7 22 01 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/5dc4c64e-0041-48ee-acfd-c55ad0a24cde)
+
+
+
+
+### Step 1C: Get list of US Equities held by Norewegian Wealth Fund from 2013-2023
 
 
 ```
