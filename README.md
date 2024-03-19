@@ -29,7 +29,7 @@ However, the ESG movement finds itself embroiled in political discourse. While p
 5. Lack of acknowledgement of stakeholder expectations.
 
 
-# Exploring the ESG Movement through Corporate 8-K Filings
+# Exploring the ESG Movement through Corporate 10-K Filings
 
 Form 8-K, commonly referred to as a "current report," is a mandatory filing prescribed by the U.S. Securities and Exchange Commission (SEC) for publicly traded companies in the United States. Its purpose is to promptly notify shareholders of significant events that could impact the company's financial well-being or stock value. By offering a real-time overview of material changes in a company's operations or management, Form 8-K serves as a  tool for investors to stay informed about developments that may affect their investment decisions.
 
