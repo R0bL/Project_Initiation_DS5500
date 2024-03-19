@@ -38,7 +38,9 @@ Form 8-K, commonly referred to as a "current report," is a mandatory filing pres
 This study evaluates ESG messaging evolution in 10-k filings. The aim is to identify trends and strategies in ESG communication among high and low environmental impact companies.
 
 
-# Data Collection
+## Step 1: Data Collection from 
+
+[The](https://www.nbim.no/en/responsible-investment/voting/our-voting-records/api-access-to-our-voting/) 
 
 ```
 def fetch_company_details(api_key, company_name):
