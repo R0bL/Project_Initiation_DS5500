@@ -333,9 +333,12 @@ filings_df.head()
 
 1. Apply ESG BERT See: https://www.sciencedirect.com/science/article/pii/S1544612324000096?via%3Dihub#da1
 
+Download the model from hugging face: https://huggingface.co/ESGBERT
+
  ![Screen Shot 2024-03-26 at 7 33 56 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/de17ae44-1384-4145-9f17-461ebaccb03e)
 
-
+2. Summarize text using GPT.
+   https://medium.com/@jan_5421/summarize-sec-filings-with-openai-gtp3-a363282d8d8
 # Refrence
 
 
