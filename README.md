@@ -329,6 +329,9 @@ filings_df.head()
 ![Screen Shot 2024-03-19 at 7 43 41 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/37b3439d-2499-4e93-aafa-6526b6b12cf3)
 
 
+# Week 4 Report
+
+1. Apply ESG BERT See: https://www.sciencedirect.com/science/article/pii/S1544612324000096?via%3Dihub#da1
 
 
 
