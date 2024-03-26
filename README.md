@@ -333,6 +333,7 @@ filings_df.head()
 
 1. Apply ESG BERT See: https://www.sciencedirect.com/science/article/pii/S1544612324000096?via%3Dihub#da1
 
+ ![Screen Shot 2024-03-26 at 7 33 56 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/de17ae44-1384-4145-9f17-461ebaccb03e)
 
 
 # Refrence
