@@ -335,6 +335,8 @@ filings_df.head()
 
 Download the model from hugging face: https://huggingface.co/ESGBERT
 
+https://huggingface.co/climatebert/distilroberta-base-climate-sentiment
+
  ![Screen Shot 2024-03-26 at 7 33 56 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/de17ae44-1384-4145-9f17-461ebaccb03e)
 
 2. Summarize text using GPT.
