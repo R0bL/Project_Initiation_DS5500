@@ -328,7 +328,7 @@ The following table provides an overview of the number of companies across vario
 
 ### Week 3 goals
 
-1. Create dataframe for embedding across 1260 companies. 
+1. Create dataframe for embedding across 966 companies. 
 2. Generate U-MAP for a single time slice
 
 
