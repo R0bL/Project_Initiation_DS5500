@@ -283,23 +283,23 @@ filings_df.head()
 
 2. File list of 10-K companie by industry: 
 
-**Deliverable** Filing by industry
+# Sector Overview
 
-                 Sector  Number of Companies
-0          Basic Materials                   63
-1   Communication Services                   35
-2        Consumer Cyclical                   96
-3       Consumer Defensive                   38
-4                   Energy                   58
-5       Financial Services                  153
-6               Healthcare                  108
-7              Industrials                  157
-8              Real Estate                   87
-9               Technology                  134
-10               Utilities                   37
+The following table provides an overview of the number of companies across various sectors:
 
-
-
+| Sector                  | Number of Companies |
+|-------------------------|---------------------|
+| Basic Materials         | 63                  |
+| Communication Services | 35                  |
+| Consumer Cyclical       | 96                  |
+| Consumer Defensive      | 38                  |
+| Energy                  | 58                  |
+| Financial Services      | 153                 |
+| Healthcare              | 108                 |
+| Industrials             | 157                 |
+| Real Estate             | 87                  |
+| Technology              | 134                 |
+| Utilities               | 37                  |
 
 
 
