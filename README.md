@@ -261,12 +261,6 @@ filings_df = fetch_filings_for_tickers_to_df(tickers, 2013, 2023, api_key)
 filings_df.head()
 ```
 
-![Screen Shot 2024-03-20 at 12 32 55 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/0ae39919-c0a4-44d1-bbac-b159b23f9697)
-
-
-
-# Pulling a large amount of Data
-
 
 # Week 1 Report
 
