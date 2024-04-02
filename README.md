@@ -337,10 +337,47 @@ Download the model from hugging face: https://huggingface.co/ESGBERT
 
 https://huggingface.co/climatebert/distilroberta-base-climate-sentiment
 
- ![Screen Shot 2024-03-26 at 7 33 56 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/de17ae44-1384-4145-9f17-461ebaccb03e)
-
 2. Summarize text using GPT.
    https://medium.com/@jan_5421/summarize-sec-filings-with-openai-gtp3-a363282d8d8
+
+
+# Week 5 Report
+
+Going to impliment a Retrieval-Augmented Generation (RAG) pipeline for 10-K disclousre text. 
+
+LLM to reference an authoritative knowledge base (10-K Text) outside the training data before generating a response. 
+
+See flowchart: 
+
+![PNG image](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/60fc8fc5-60ee-4025-aa87-fa5328625b9f)
+
+
+Using Google Colab Pro to access GPU for embeddings + Gemma 7B as a LLM
+
+GPU memory: 40 | Recommend model: Gemma 7B in 4-bit or float16 precision.
+
+```
+Note: the following is Gemma focused, however, there are more and more LLMs of the 2B and 7B size appearing for local use.
+if gpu_memory_gb < 5.1:
+    print(f"Your available GPU memory is {gpu_memory_gb}GB, you may not have enough memory to run a Gemma LLM locally without quantization.")
+elif gpu_memory_gb < 8.1:
+    print(f"GPU memory: {gpu_memory_gb} | Recommended model: Gemma 2B in 4-bit precision.")
+    use_quantization_config = True 
+    model_id = "google/gemma-2b-it"
+elif gpu_memory_gb < 19.0:
+    print(f"GPU memory: {gpu_memory_gb} | Recommended model: Gemma 2B in float16 or Gemma 7B in 4-bit precision.")
+    use_quantization_config = False 
+    model_id = "google/gemma-2b-it"
+elif gpu_memory_gb > 19.0:
+    print(f"GPU memory: {gpu_memory_gb} | Recommend model: Gemma 7B in 4-bit or float16 precision.")
+    use_quantization_config = False 
+    model_id = "google/gemma-7b-it"
+```
+
+
+print(f"use_quantization_config set to: {use_quantization_config}")
+print(f"model_id set to: {model_id}")
+
 # Refrence
 
 
