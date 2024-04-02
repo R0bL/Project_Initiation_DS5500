@@ -352,7 +352,7 @@ See flowchart:
 ![PNG image](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/60fc8fc5-60ee-4025-aa87-fa5328625b9f)
 
 
-Using Google Colab Pro to access GPU for embeddings + Gemma 7B as a LLM
+Using Google Colab Pro to access A100 GPU for embeddings + Gemma 7B as a LLM
 
 GPU memory: 40 | Recommend model: Gemma 7B in 4-bit or float16 precision.
 
