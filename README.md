@@ -372,11 +372,13 @@ elif gpu_memory_gb > 19.0:
     print(f"GPU memory: {gpu_memory_gb} | Recommend model: Gemma 7B in 4-bit or float16 precision.")
     use_quantization_config = False 
     model_id = "google/gemma-7b-it"
-```
 
 
 print(f"use_quantization_config set to: {use_quantization_config}")
 print(f"model_id set to: {model_id}")
+```
+
+Refrence: https://github.com/mrdbourke/simple-local-rag/tree/main
 
 # Refrence
 
