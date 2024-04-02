@@ -285,17 +285,25 @@ filings_df.head()
 
 **Deliverable** Filing by industry
 
-1. Consumer Discretionary
-2. Financials
-3. Consumer Staples
-4. Industrials
-5. Basic Materials
-6. Health Care
-7. Real Estate
-8. Telecommunications
-9. Technology
-10. Utilities
-11. Energy
+                 Sector  Number of Companies
+0          Basic Materials                   63
+1   Communication Services                   35
+2        Consumer Cyclical                   96
+3       Consumer Defensive                   38
+4                   Energy                   58
+5       Financial Services                  153
+6               Healthcare                  108
+7              Industrials                  157
+8              Real Estate                   87
+9               Technology                  134
+10               Utilities                   37
+
+
+
+
+
+
+
 
 
 
