@@ -53,17 +53,22 @@ Link to API : https://www.nbim.no/en/responsible-investment/voting/our-voting-re
 
 2. Data Collection from SEC EDGAR System to get Corprate 10-K filings:
 
-Used sec-api.io Link: https://sec-api.io/docs/sec-filings-item-extraction-api
+Link to sec-api.io : https://sec-api.io/docs/sec-filings-item-extraction-api
  
 3. Data preprocessing: Ingesting text into a dictionary, split into chunks and report on token count. 
 
-see link for open source nlp preprocesser spaCy: https://spacy.io/api/sentencizer
+Link to open source nlp preprocesser spaCy: https://spacy.io/api/sentencizer
 
 4. Embedding the chunks: use a pretrained model mpnet-base model 
 
-5. Creating a sematic search pipeline
+Link to hugging face: https://huggingface.co/sentence-transformers/all-mpnet-base-v2
+
+5. Creating a sematic search pipeline between a user query and the text
+
    
 6. Loading an LLM locally
+
+Link to LLM: https://huggingface.co/google/gemma-7b-it
    
 7. Generating text with an LLM
  
