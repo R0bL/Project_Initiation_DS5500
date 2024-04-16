@@ -58,7 +58,7 @@ The code used to collect data can be found: ``` _Step_1_DataCollection.ipynb_```
 
 Link to sec-api.io : https://sec-api.io/docs/sec-filings-item-extraction-api
 
-The code used to collect data can be found: _Step_2_SEC_EDGAR.ipynb_
+The code used to collect data can be found: ```_Step_2_SEC_EDGAR.ipynb_```
 
 Output from Step_1 can be found in Step_2 folder "cleaned_company_list.csv" 
 
