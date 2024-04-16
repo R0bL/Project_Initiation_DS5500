@@ -154,17 +154,41 @@ See query:
 
 
 ```
-query = {
-  "query": { "query_string": { 
-      "query": "ticker:DDD AND filedAt:[2013-01-01 TO 2023-12-31] AND formType:\"10-K\"",
-      "time_zone": "America/New_York"
-  } },
-  "from": "0",
-  "size": "10",
-  "sort": [{ "filedAt": { "order": "desc" } }]
-}
+import pickle
+import re
+from tqdm import tqdm
 
-response = queryApi.get_filings(query)
+# Assuming `df_documents_info_cleaned` is your DataFrame containing the URLs and metadata
+documents_info = []
+
+for index, row in tqdm(df_documents_info_cleaned.iterrows(), total=df_documents_info_cleaned.shape[0], desc="Fetching and Cleaning Documents"):
+    # Extract necessary information from the row
+    ticker = row['ticker']
+    filedAt = row['filedAt']
+    sector = row['sector']
+    filing_url = row['linkToFilingDetails']
+    
+    # Fetch the document text for both sections 1 and 1A
+    section_1_text = extractorApi.get_section(filing_url, "1", "text")
+    section_1A_text = extractorApi.get_section(filing_url, "1A", "text")
+    
+    # Combine both sections' texts
+    combined_text = section_1_text + " " + section_1A_text  # Ensure there's a space between the two sections
+    
+    # Clean the combined section text
+    cleaned_combined_section = re.sub(r"\n|&#[0-9]+;", "", combined_text)
+    
+    # Append a dictionary for each document containing its metadata and cleaned combined text
+    documents_info.append({
+        'ticker': ticker,
+        'filedAt': filedAt,
+        'sector': sector,
+        'text': cleaned_combined_section
+    })
+
+# Serialize the list of dictionaries to a file using pickle
+with open('Cleaned_US_Item1_1A.pkl', 'wb') as f:
+    pickle.dump(documents_info, f)
 ```
 
 Convert to Pandas Dataframe: 
