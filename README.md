@@ -16,6 +16,15 @@ ESG ratings play a role in guiding trillions of dollars in investments worldwide
 
 ![image-31](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/089b5330-35f6-46f3-9d53-eef8d96d84f4)
 
+### The Challenges 
+
+
+1. Lack of transparency among the ESG raters on how the scores are assigned.
+2. Lack of standards on how a particular concept is measured.
+3. Questionable tradeoffs: high scores in one domain may offset very low scores in another area.
+4. Absence of an overall score combining performance scores along Environmental, Social, and Governance (ESG) axes; weights given to the "E," "S," and "G."
+5. Lack of acknowledgement of stakeholder expectations.
+
 
 
 ## The Data
