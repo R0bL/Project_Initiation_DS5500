@@ -2,9 +2,16 @@
 
 This project is an attempt to understand the shifting messaging ESG messaging in 10-K filings using a RAG (Retrival Augmented Generation Pipeline). 
 
-This analysis specifically examines the 966 US equities in which the Norwegian Sovereign Wealth Fund has invested. The $1.4 trillion fund, managed by the Norwegian government, originated from oil and gas resources discovered in the late 1960s on the Norwegian continental shelves. Serving as a strategic financial reserve, the fund holds stakes in about 9,000 companies worldwide, owning approximately 1.4 percent of every listed company globally. The investment returns from this fund contribute to covering 20 to 25 percent of Norway’s annual budget.
+## The Data
 
+This analysis specifically examines the 966 US equities in which the Norwegian Sovereign Wealth Fund has invested. The $1.4 trillion fund, managed by the Norwegian government, originated from oil and gas resources discovered in the late 1960s on the Norwegian continental shelves. Serving as a strategic financial reserve, the fund holds stakes in about 9,000 companies worldwide, owning approximately 1.4 percent of every listed company globally. 
+
+I have chosen to focus on this subset of publicly traded companies to benchmark US firms against European long-term sustainable investing strategies, specifically examining the Norwegian Sovereign Wealth Fund's voting guidelines. This approach aims to compare the governance and sustainability practices of American corporations with those promoted by one of Europe's most significant investors, known for its adherence to ESG principles.
+
+## the Goal
 The goal of this project is to equip large language models (LLMs) with domain-specific data derived from the 10-K disclosure filings of 968 publicly traded firms, as well as the Norwegian Wealth Fund's voting patterns on shareholder proposals. Enabling the LLMs to tailor their outputs, drawing context from authoritative sources concerning environmental, social, and governance (ESG) messaging and Corprate Goverannce. 
+
+## An overview: 
 
 This project is broken down into a few steps. 
 
