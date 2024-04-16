@@ -49,7 +49,10 @@ This project is broken down into a few steps.
 
 #### 1. Data Collection from Norwegian Sovereing Wealth Fund to get the list of US equities:
    
-Link to API : https://www.nbim.no/en/responsible-investment/voting/our-voting-records/api-access-to-our-voting/
+A link to the API can be found here: [Norges Bank Investment Management API](https://www.nbim.no/en/responsible-investment/voting/our-voting-records/api-access-to-our-voting/) 
+
+The code used to collect data can be found: _Step_1_DataCollection.ipynb_
+
 
 #### 2. Data Collection from SEC EDGAR System to get Corprate 10-K filings:
 
