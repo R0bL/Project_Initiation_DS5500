@@ -40,26 +40,32 @@ I have chosen to focus on this subset of publicly traded companies to benchmark 
 ![image-32](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/7cc9803a-65cb-459c-8174-2a8bd0f39bf4)
 
 
-## the Goal
+## The Goal
 The goal of this project is to equip large language models (LLMs) with domain-specific data derived from the 10-K disclosure filings of 968 publicly traded firms, as well as the Norwegian Wealth Fund's voting patterns on shareholder proposals. Enabling the LLMs to tailor their outputs, drawing context from authoritative sources concerning environmental, social, and governance (ESG) messaging and Corprate Goverannce. 
 
-## An overview: 
+## An Overview: 
 
 This project is broken down into a few steps. 
 
-1. Data Collection and Cleaning: (1) Collecting data from Norwegain Wealth Fund API (2) Validating/Cleaning the data with Yahoo Finance
+1. Data Collection from Norwegian Sovereing Wealth Fund to get the list of US equities:
+   
+Link to API : https://www.nbim.no/en/responsible-investment/voting/our-voting-records/api-access-to-our-voting/
 
-https://www.nbim.no/en/responsible-investment/voting/our-voting-records/api-access-to-our-voting/
+2. Data Collection from SEC EDGAR System to get Corprate 10-K filings:
+
+Used sec-api.io Link: https://sec-api.io/docs/sec-filings-item-extraction-api
  
-2. Ingesting text: Splitting the text into chunks
-   
-3. Embedding the chunks: use a pretrained model mpnet-base model 
+3. Data preprocessing: Ingesting text into a dictionary, split into chunks and report on token count. 
 
-4. Creating a sematic search pipeline
+see link for open source nlp preprocesser spaCy: https://spacy.io/api/sentencizer
+
+4. Embedding the chunks: use a pretrained model mpnet-base model 
+
+5. Creating a sematic search pipeline
    
-5. Loading an LLM locally
+6. Loading an LLM locally
    
-6. Generating text with an LLM
+7. Generating text with an LLM
  
 
 
