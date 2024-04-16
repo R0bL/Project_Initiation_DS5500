@@ -1,5 +1,4 @@
-# Project overview 
-
+# Decoding Corporate Narratives: A RAG-Based Approach to Navigating 10-K Filings
 
 ESG metrics encompass three fundamental pillars: 
 
