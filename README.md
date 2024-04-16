@@ -234,16 +234,16 @@ with open('Cleaned_US_Item1_1A.pkl', 'wb') as f:
 Convert to Pandas Dataframe: 
 
 ```
-import pandas as pd
+# Load the serialized data from the pickle file
+with open('Cleaned_US_Item1_1A.pkl', 'rb') as f:
+    documents_info = pickle.load(f)
 
-metadata = pd.DataFrame.from_records(response['filings'])
-metadata
+# Create a DataFrame from the documents_info list
+Cleaned_US_Item1_1A = pd.DataFrame(documents_info)
 ```
 
-![Screen Shot 2024-03-19 at 7 29 31 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/ae71069d-a4d8-417e-9eb7-5db42130d78c)
-
-
 Example pull for a 10-K document, get section 1A Risks and clean the text) 
+![Screen Shot 2024-04-16 at 3 57 55 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/ed1a27c8-af72-43ce-92b6-4d343ccd2f6d)
 
 ```
 # Example 10-K filing
