@@ -16,7 +16,7 @@ ESG ratings play a role in guiding trillions of dollars in investments worldwide
 
 ![image-31](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/089b5330-35f6-46f3-9d53-eef8d96d84f4)
 
-### The Challenges 
+#### The Challenges 
 
 
 1. Lack of transparency among the ESG raters on how the scores are assigned.
