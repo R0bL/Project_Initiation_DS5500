@@ -237,7 +237,6 @@ Convert to Pandas Dataframe:
 # Load the serialized data from the pickle file
 with open('Cleaned_US_Item1_1A.pkl', 'rb') as f:
     documents_info = pickle.load(f)
-=
 ```
 
 Example pull for a 10-K document, get section 1A Risks and clean the text) 
