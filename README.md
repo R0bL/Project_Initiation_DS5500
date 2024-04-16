@@ -1,6 +1,28 @@
 # Decoding Corporate Narratives: A RAG-Based Approach to Navigating 10-K Filings
 
-This project is an attempt to understand the shifting messaging surronding ESG messaging in 10-K filings
+This project is an attempt to understand the shifting messaging ESG messaging in 10-K filings using a RAG (Retrival Augmented Generation Pipeline). 
+
+This analysis specifically examines the 966 US equities in which the Norwegian Sovereign Wealth Fund has invested. The $1.4 trillion fund, managed by the Norwegian government, originated from oil and gas resources discovered in the late 1960s on the Norwegian continental shelves. Serving as a strategic financial reserve, the fund holds stakes in about 9,000 companies worldwide, owning approximately 1.4 percent of every listed company globally. The investment returns from this fund contribute to covering 20 to 25 percent of Norway’s annual budget.
+
+The goal of this project is to equip large language models (LLMs) with domain-specific data derived from the 10-K disclosure filings of 968 publicly traded firms, as well as the Norwegian Wealth Fund's voting patterns on shareholder proposals. Enabling the LLMs to tailor their outputs, drawing context from authoritative sources concerning environmental, social, and governance (ESG) messaging and Corprate Goverannce. 
+
+This project is broken down into a few steps. 
+
+1. Data Collection and Cleaning: (1) Collecting data from Norwegain Wealth Fund API (2) Validating/Cleaning the data with Yahoo Finance
+
+https://www.nbim.no/en/responsible-investment/voting/our-voting-records/api-access-to-our-voting/
+ 
+2. Ingesting text: Splitting the text into chunks
+   
+3. Embedding the chunks: use a pretrained model mpnet-base model 
+
+4. Creating a sematic search pipeline
+   
+5. Loading an LLM locally
+   
+6. Generating text with an LLM
+ 
+
 
 ## The Landscape
 
