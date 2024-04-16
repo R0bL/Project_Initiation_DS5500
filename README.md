@@ -33,6 +33,7 @@ This analysis specifically examines the 966 US equities in which the Norwegian S
 
 I have chosen to focus on this subset of publicly traded companies to benchmark US firms against European long-term sustainable investing strategies, specifically examining the Norwegian Sovereign Wealth Fund's voting guidelines. This approach aims to compare the governance and sustainability practices of American corporations with those promoted by one of Europe's most significant investors, known for its adherence to ESG principles.
 
+Investors’ Support for “Pro-ESG” Shareholder Proposals at S&P 500 Companies
 
 ![image-32](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/7cc9803a-65cb-459c-8174-2a8bd0f39bf4)
 
