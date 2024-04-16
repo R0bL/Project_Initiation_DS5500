@@ -55,7 +55,7 @@ Link to API : https://www.nbim.no/en/responsible-investment/voting/our-voting-re
 
 Link to sec-api.io : https://sec-api.io/docs/sec-filings-item-extraction-api
  
-#### 3. Data preprocessing: Ingesting text into a dictionary, split into chunks and report on token count. 
+#### 3. Data preprocessing: Ingesting text into a pdf then turn into dictionary, split into chunks and report on token count. 
 
 Link to open source nlp preprocesser spaCy: https://spacy.io/api/sentencizer
 
