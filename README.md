@@ -263,59 +263,7 @@ Output:
 ### Pulling URLS for all firms considered
 
 ```
-from sec_api import QueryApi
-import pandas as pd
-from tqdm.auto import tqdm
 
-def fetch_filings_for_tickers_to_df(tickers, start_year, end_year, api_key):
-    query_api = QueryApi(api_key=api_key)
-    filings_list = []
-
-    for ticker in tqdm(tickers, desc="Processing tickers"):
-        for year in tqdm(range(start_year, end_year + 1), desc="Years", leave=False):
-            for month in tqdm(range(1, 13), desc="Months", leave=False):
-                from_param = 0
-                more_filings_exist = True
-
-                while more_filings_exist:
-                    query = {
-                      "query": { 
-                          "query_string": { 
-                              "query": f"ticker:{ticker} AND filedAt:[{year}-{month:02d}-01 TO {year}-{month:02d}-31] AND formType:\"10-K\"",
-                              "time_zone": "America/New_York"
-                          } 
-                      },
-                      "from": str(from_param),
-                      "size": "200",
-                      "sort": [{"filedAt": {"order": "desc"}}]
-                    }
-
-                    response = query_api.get_filings(query)
-                    filings = response['filings']
-
-                    if filings:
-                        for filing in filings:
-                            # Here you can add any information you want about each filing to the dictionary
-                            filings_list.append({
-                                "ticker": ticker,
-                                "filedAt": filing.get("filedAt", ""),
-                                "formType": filing.get("formType", ""),
-                                "linkToFilingDetails": filing.get("linkToFilingDetails", "")
-                            })
-                    else:
-                        more_filings_exist = False
-                    
-                    from_param += 200
-
-    filings_df = pd.DataFrame(filings_list)
-    return filings_df
-
-# Example usage
-tickers = tickers
-api_key = 'API KEY'  # Replace with your actual SEC API key
-filings_df = fetch_filings_for_tickers_to_df(tickers, 2013, 2023, api_key)
-
-filings_df.head()
 ```
 
 
