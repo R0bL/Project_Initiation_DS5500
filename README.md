@@ -1,12 +1,6 @@
 # Decoding Corporate Narratives: A RAG-Based Approach to Navigating 10-K Filings
 
-ESG metrics encompass three fundamental pillars: 
-
-1. The "E" dimension evaluates a company's management of natural resources and its environmental impact, encompassing both direct operations and supply chain activities.
-
-2. The "S" aspect pertains to social factors, assessing a company's effectiveness in navigating social trends, labor practices, and political dynamics.
-
-3. The "G" component of ESG focuses on governance factors, examining decision-making processes from governmental policy-making to the allocation of rights and responsibilities within corporations. This includes scrutiny of governance structures involving the board of directors, managers, shareholders, and stakeholders
+This project is an attempt to e
 
 
 ## The Landscape
@@ -22,6 +16,9 @@ ESG metrics encompass three fundamental pillars:
 
 
 ESG ratings play a role in guiding trillions of dollars in investments worldwide. For example, the investment strategy of the Maine Public Employees Retirement System Pension Fund is guided by ESG criteria, and they highlight the significance of integrating sustainability factors for long-term investment success.
+
+
+![image-32-1024x685](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/b325ff8b-976e-472b-865d-18234a8c1334)
 
 
 
