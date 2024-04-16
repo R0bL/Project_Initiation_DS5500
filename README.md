@@ -182,7 +182,7 @@ df.head()
 ```
 
 
-### Step 2: Use sec-api.io to pull 10-K by ticker: 
+# Step 2: Use sec-api.io to pull 10-K by ticker: 
 
 See link: [SEC-API](https://sec-api.io/)
 
@@ -242,7 +242,7 @@ Example pull for a 10-K document, get section 1A Risks and clean the text)
 ![Screen Shot 2024-04-16 at 3 57 55 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/ed1a27c8-af72-43ce-92b6-4d343ccd2f6d)
 
 
-### Filter out dataframe and only consider 10-K disclosures for 2023
+### For the sake of this example, filter out dataframe and only consider 10-K disclosures for 2023 in the Utility Sector
 
 ```
 # Load the serialized data from the pickle file
@@ -254,18 +254,50 @@ Cleaned_US_Item1_1A = pd.DataFrame(documents_info)
 
 df_2023 = Cleaned_US_Item1_1A[Cleaned_US_Item1_1A['filedAt'].str.startswith('2023')]
 
-```
-
-
-
-
-
-### Pulling URLS for all firms considered
+unique_utility_df = df_2023[df_2023['sector'] == 'Utilities']
 
 ```
 
+
+### Creating a PDF with Metadata (there way to do this) 
+```
+def draw_metadata(c, metadata, width, height):
+    """Draws metadata at the top of each page."""
+    c.setFont("Helvetica", 12)
+    c.drawString(72, height - 50, f"Ticker: {metadata['ticker']}, Sector: {metadata['sector']}, Filed At: {metadata['filedAt']}")
+
+def add_text_to_page(c, text, metadata, width, height):
+    """Adds text to a page ensuring metadata is drawn first and proper spacing is maintained."""
+    draw_metadata(c, metadata, width, height)
+    text_object = c.beginText(72, height - 100)  # Adjusted to leave space below the metadata
+    text_object.setFont("Helvetica", 10)
+    for line in text.split():
+        line = preprocess_text(line)  # Preprocess each line if necessary
+        if text_object.getX() + c.stringWidth(line) > width - 72:
+            text_object.textLine()  # Move to next line if text exceeds the page width
+        if text_object.getY() < 100:  # Check if we're near the bottom of the page
+            c.drawText(text_object)  # Draw the text collected so far
+            c.showPage()  # Start a new page
+            draw_metadata(c, metadata, width, height)  # Redraw metadata at top of the new page
+            text_object = c.beginText(72, height - 100)
+        text_object.textOut(line + " ")  # Add space between words
+    c.drawText(text_object)  # Make sure to draw any remaining text
+    c.showPage()  # Ensure a new page is started after finishing each company's text
+
+def create_pdf(df, filename):
+    """Creates a PDF file with each entry separated onto a new page with metadata at the top."""
+    c = canvas.Canvas(filename, pagesize=letter)
+    width, height = letter
+    for index, row in df.iterrows():
+        metadata = {'ticker': row['ticker'], 'sector': row['sector'], 'filedAt': row['filedAt']}
+        add_text_to_page(c, row['text'], metadata, width, height)
+    c.save()
+    print(f"PDF saved as {filename}")
+
+create_pdf(df=unique_utility_df, filename='utility.pdf')
 ```
 
+# Step 3: 
 
 # Week 1 Report
 
