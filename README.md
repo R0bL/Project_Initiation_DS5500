@@ -13,7 +13,7 @@ ESG metrics encompass three fundamental pillars:
 3. The "G" component of ESG focuses on governance factors, examining decision-making processes from governmental policy-making to the allocation of rights and responsibilities within corporations. This includes scrutiny of governance structures involving the board of directors, managers, shareholders, and stakeholders
 
 ESG ratings play a role in guiding trillions of dollars in investments worldwide. For example, the investment strategy of the Maine Public Employees Retirement System Pension Fund is guided by ESG criteria, and they highlight the significance of integrating sustainability factors for long-term investment success.
-
+**Number of Shareholder Proposals by Sub-Categories, 2022-2023**
 ![image-31](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/089b5330-35f6-46f3-9d53-eef8d96d84f4)
 
 #### The Challenges 
@@ -33,8 +33,7 @@ This analysis specifically examines the 966 US equities in which the Norwegian S
 
 I have chosen to focus on this subset of publicly traded companies to benchmark US firms against European long-term sustainable investing strategies, specifically examining the Norwegian Sovereign Wealth Fund's voting guidelines. This approach aims to compare the governance and sustainability practices of American corporations with those promoted by one of Europe's most significant investors, known for its adherence to ESG principles.
 
-Investors’ Support for “Pro-ESG” Shareholder Proposals at S&P 500 Companies
-
+**Investors’ Support for “Pro-ESG” Shareholder Proposals at S&P 500 Companies**
 ![image-32](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/7cc9803a-65cb-459c-8174-2a8bd0f39bf4)
 
 
