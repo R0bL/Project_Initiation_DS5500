@@ -57,6 +57,9 @@ The code used to collect data can be found: _Step_1_DataCollection.ipynb_
 #### 2. Data Collection from SEC EDGAR System to get Corprate 10-K filings:
 
 Link to sec-api.io : https://sec-api.io/docs/sec-filings-item-extraction-api
+
+The code used to collect data can be found: _Step_1_DataCollection.ipynb_
+
  
 #### 3. Data preprocessing: Ingesting text into a pdf then turn into dictionary, split into chunks and report on token count. 
 
