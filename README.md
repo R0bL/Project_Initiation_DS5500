@@ -182,7 +182,7 @@ df.head()
 ```
 
 
-### Step 1C: Use sec-api.io to pull 10-K by ticker: 
+### Step 2: Use sec-api.io to pull 10-K by ticker: 
 
 See link: [SEC-API](https://sec-api.io/)
 
@@ -191,7 +191,6 @@ See link: [SEC-API](https://sec-api.io/)
 ```
 
 See query: 
-
 
 ```
 import pickle
@@ -242,6 +241,9 @@ with open('Cleaned_US_Item1_1A.pkl', 'rb') as f:
 Example pull for a 10-K document, get section 1A Risks and clean the text) 
 ![Screen Shot 2024-04-16 at 3 57 55 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/ed1a27c8-af72-43ce-92b6-4d343ccd2f6d)
 
+
+### Filter out dataframe and only consider 10-K disclosures for 2023
+
 ```
 # Load the serialized data from the pickle file
 with open('Cleaned_US_Item1_1A.pkl', 'rb') as f:
@@ -254,9 +256,7 @@ df_2023 = Cleaned_US_Item1_1A[Cleaned_US_Item1_1A['filedAt'].str.startswith('202
 
 ```
 
-Output: 
 
-![Screen Shot 2024-04-16 at 4 00 08 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/ec1cf68c-fa41-48ab-8f74-e3a2555b46db)
 
 
 
