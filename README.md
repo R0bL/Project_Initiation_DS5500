@@ -1,7 +1,6 @@
 # Decoding Corporate Narratives: A RAG-Based Approach to Navigating 10-K Filings
 
-This project is an attempt to e
-
+This project is an attempt to understand the shifting messaging surronding ESG messaging in 10-K filings
 
 ## The Landscape
 
