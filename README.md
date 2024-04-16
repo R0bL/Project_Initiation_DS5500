@@ -63,22 +63,7 @@ https://www.nbim.no/en/responsible-investment/voting/our-voting-records/api-acce
  
 
 
-
-
-
-## The Challenges 
-
-
-1. Lack of transparency among the ESG raters on how the scores are assigned.
-2. Lack of standards on how a particular concept is measured.
-3. Questionable tradeoffs: high scores in one domain may offset very low scores in another area.
-4. Absence of an overall score combining performance scores along Environmental, Social, and Governance (ESG) axes; weights given to the "E," "S," and "G."
-5. Lack of acknowledgement of stakeholder expectations.
-
-
-# Exploring the ESG Movement through Corporate 10-K Filings
-
-
+# Building a local RAG (Retrival Augmented Generation Pipeline) pipeline 
 
 ## Step 1: Data Collection
 
