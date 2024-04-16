@@ -237,26 +237,22 @@ Convert to Pandas Dataframe:
 # Load the serialized data from the pickle file
 with open('Cleaned_US_Item1_1A.pkl', 'rb') as f:
     documents_info = pickle.load(f)
-
-# Create a DataFrame from the documents_info list
-Cleaned_US_Item1_1A = pd.DataFrame(documents_info)
+=
 ```
 
 Example pull for a 10-K document, get section 1A Risks and clean the text) 
 ![Screen Shot 2024-04-16 at 3 57 55 PM](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/ed1a27c8-af72-43ce-92b6-4d343ccd2f6d)
 
 ```
-# Example 10-K filing
-filing_url = metadata['linkToFilingDetails'][0]
+# Load the serialized data from the pickle file
+with open('Cleaned_US_Item1_1A.pkl', 'rb') as f:
+    documents_info = pickle.load(f)
 
-# get the standardized and cleaned text of section 1A "Risk Factors"
-section_text = extractorApi.get_section(filing_url, "1A", "text")
+# Create a DataFrame from the documents_info list
+Cleaned_US_Item1_1A = pd.DataFrame(documents_info)
 
+df_2023 = Cleaned_US_Item1_1A[Cleaned_US_Item1_1A['filedAt'].str.startswith('2023')]
 
-# we use a regular expression to substitute new line characters and HTML entities
-# with an empty string ""
-import re
-cleaned_section = re.sub(r"\n|&#[0-9]+;", "", section_text)
 ```
 
 Output: 
