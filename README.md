@@ -14,6 +14,8 @@ ESG metrics encompass three fundamental pillars:
 
 ESG ratings play a role in guiding trillions of dollars in investments worldwide. For example, the investment strategy of the Maine Public Employees Retirement System Pension Fund is guided by ESG criteria, and they highlight the significance of integrating sustainability factors for long-term investment success.
 
+In recent years, ESG-related shareholder proposals—an official vehicle through which shareholders can interface with the board of directors—have become more prominent.
+
 #### Number of Shareholder Proposals by Sub-Categories, 2022-2023
 ![image-31](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/089b5330-35f6-46f3-9d53-eef8d96d84f4)
 
