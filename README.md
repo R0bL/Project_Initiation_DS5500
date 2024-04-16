@@ -113,7 +113,6 @@ The data being evaluated are SEC filings of 1260 Equities held by the Norwegain 
 
 Cross refrenced data pulled with y_finance [yfinance](https://pypi.org/project/yfinance/) - Norwegain Wealth Fund Database did not have the correct industry tags: 
 
-
 ```
 import pandas as pd
 import yfinance as yf
@@ -141,8 +140,6 @@ df['Sector'] = df['Ticker'].progress_apply(fetch_sector)
 # Display the updated dataframe
 df.head()
 ```
-
-
 
 
 ### Step 1C: Use sec-api.io to pull 10-K by ticker: 
