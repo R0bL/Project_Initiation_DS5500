@@ -74,7 +74,7 @@ Link to LLM: https://huggingface.co/google/gemma-7b-it
  
 
 
-# Building a local RAG (Retrival Augmented Generation Pipeline) pipeline 
+# Building a local RAG (Retrival Augmented Generation Pipeline) pipeline for 10-K documents
 
 ## Step 1: Data Collection
 
