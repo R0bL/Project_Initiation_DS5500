@@ -2,6 +2,22 @@
 
 This project is an attempt to understand the shifting messaging ESG messaging in 10-K filings using a RAG (Retrival Augmented Generation Pipeline). 
 
+## The Landscape
+
+ESG metrics encompass three fundamental pillars: 
+
+1. The "E" dimension evaluates a company's management of natural resources and its environmental impact, encompassing both direct operations and supply chain activities.
+
+2. The "S" aspect pertains to social factors, assessing a company's effectiveness in navigating social trends, labor practices, and political dynamics.
+
+3. The "G" component of ESG focuses on governance factors, examining decision-making processes from governmental policy-making to the allocation of rights and responsibilities within corporations. This includes scrutiny of governance structures involving the board of directors, managers, shareholders, and stakeholders
+
+ESG ratings play a role in guiding trillions of dollars in investments worldwide. For example, the investment strategy of the Maine Public Employees Retirement System Pension Fund is guided by ESG criteria, and they highlight the significance of integrating sustainability factors for long-term investment success.
+
+
+![image-31-1024x498 Medium](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/b251b1a0-6150-4a1e-b808-5341299dfb90)
+
+
 ## The Data
 
 This analysis specifically examines the 966 US equities in which the Norwegian Sovereign Wealth Fund has invested. The $1.4 trillion fund, managed by the Norwegian government, originated from oil and gas resources discovered in the late 1960s on the Norwegian continental shelves. Serving as a strategic financial reserve, the fund holds stakes in about 9,000 companies worldwide, owning approximately 1.4 percent of every listed company globally. 
@@ -31,23 +47,6 @@ https://www.nbim.no/en/responsible-investment/voting/our-voting-records/api-acce
  
 
 
-## The Landscape
-
-
-ESG metrics encompass three fundamental pillars: 
-
-1. The "E" dimension evaluates a company's management of natural resources and its environmental impact, encompassing both direct operations and supply chain activities.
-
-2. The "S" aspect pertains to social factors, assessing a company's effectiveness in navigating social trends, labor practices, and political dynamics.
-
-3. The "G" component of ESG focuses on governance factors, examining decision-making processes from governmental policy-making to the allocation of rights and responsibilities within corporations. This includes scrutiny of governance structures involving the board of directors, managers, shareholders, and stakeholders
-
-
-ESG ratings play a role in guiding trillions of dollars in investments worldwide. For example, the investment strategy of the Maine Public Employees Retirement System Pension Fund is guided by ESG criteria, and they highlight the significance of integrating sustainability factors for long-term investment success.
-
-
-
-![image-31-1024x498 Medium](https://github.com/R0bL/Project_Initiation_DS5500/assets/133535059/b251b1a0-6150-4a1e-b808-5341299dfb90)
 
 
 
